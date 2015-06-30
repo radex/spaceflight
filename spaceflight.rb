@@ -21,11 +21,11 @@ rows.each_with_index { |row, index|
 
 # launch model structs
 
-Payload = Struct.new(:name, :country, :operator, :orbit, :function, :decay, :outcome)
-Rocket = Struct.new(:name, :country)
-LaunchSite = Struct.new(:name, :country)
+Payload = Struct.new(:name, :countries, :operator, :orbit, :function, :decay, :outcome)
+Rocket = Struct.new(:name, :countries)
+LaunchSite = Struct.new(:name, :countries)
 LaunchServiceProvider = Struct.new(:name, :country)
-Launch = Struct.new(:date, :rocket, :launch_site, :lsp, :payload, :remarks)
+Launch = Struct.new(:date, :rocket, :launch_site, :lsp, :payloads, :remarks)
 
 # parse launch data
 
@@ -33,7 +33,7 @@ def flags cell
   cell.css('.flagicon > a').map { |a| a['title'] }.to_s
 end
 
-launches_html.each do |rows|
+launches = launches_html.map do |rows|
   info_row = rows[0]
   
   begin
@@ -72,7 +72,7 @@ launches_html.each do |rows|
     rows.pop
   end
   
-  rows.each do |sat|
+  payloads = rows.map do |sat|
     name     = sat.css('td')[0].content.strip
     country  = flags(sat.css('td')[0])
     operator = sat.css('td')[1].content.strip
@@ -82,8 +82,13 @@ launches_html.each do |rows|
     outcome  = sat.css('td')[5].content.strip
     payload  = Payload.new(name, country, operator, orbit, function, decay, outcome)
     puts payload
+    payload
   end
   
   puts remarks
   puts
+  
+  launch = Launch.new(date, rocket, launch_site, lsp, payloads, remarks)
 end
+
+launches.reject! &:nil?
