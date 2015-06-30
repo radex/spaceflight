@@ -21,16 +21,16 @@ rows.each_with_index { |row, index|
 
 # launch model structs
 
-Payload = Struct.new(:name, :countries, :operator, :orbit, :function, :decay, :outcome)
-Rocket = Struct.new(:name, :countries)
-LaunchSite = Struct.new(:name, :countries)
+Payload = Struct.new(:name, :country, :operator, :orbit, :function, :decay, :outcome)
+Rocket = Struct.new(:name, :country)
+LaunchSite = Struct.new(:name, :country)
 LaunchServiceProvider = Struct.new(:name, :country)
 Launch = Struct.new(:date, :rocket, :launch_site, :lsp, :payloads, :remarks)
 
 # parse launch data
 
 def flags cell
-  cell.css('.flagicon > a').map { |a| a['title'] }.to_s
+  cell.css('.flagicon > a').map { |a| a['title'] }
 end
 
 launches = launches_html.map do |rows|
@@ -92,3 +92,21 @@ launches = launches_html.map do |rows|
 end
 
 launches.reject! &:nil?
+
+# exporting
+
+require 'json'
+
+class Struct
+  def to_map
+    map = Hash.new
+    self.members.each { |m| map[m] = self[m] }
+    map
+  end
+
+  def to_json(*a)
+    to_map.to_json(*a)
+  end
+end
+
+IO.write '2015.json', JSON.pretty_generate(launches)
