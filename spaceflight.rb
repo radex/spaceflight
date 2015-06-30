@@ -1,7 +1,7 @@
 require 'nokogiri'
 require 'date'
 
-html = Nokogiri::HTML IO.read '2015.html'
+html = Nokogiri::HTML IO.read 'wiki/2015.html'
 
 # find the main table
 table = html.css('table.wikitable').find { |table|
