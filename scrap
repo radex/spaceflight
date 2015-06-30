@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+(1951..Time.now.year).each do |year|
+  puts "Downloading data for #{year}"
+  system "curl https://en.wikipedia.org/wiki/#{year}_in_spaceflight > wiki/#{year}.html"
+end
