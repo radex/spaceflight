@@ -25,7 +25,7 @@
         "country": [
           "United States"
         ],
-        "operator": "SpaceX/NASA",
+        "operator": "NASA",
         "orbit": "Low Earth (ISS)",
         "function": "ISS resupply",
         "decay": "11 February\n00:44",
@@ -39,8 +39,8 @@
         "operator": "Planet Labs",
         "orbit": "Low Earth",
         "function": "Optical imaging",
-        "decay": "In orbit",
-        "outcome": "Operational"
+        "decay": "13 October 2015",
+        "outcome": "Successful"
       },
       {
         "name": "Flock-1d' 2",
@@ -50,8 +50,8 @@
         "operator": "Planet Labs",
         "orbit": "Low Earth",
         "function": "Optical imaging",
-        "decay": "In orbit",
-        "outcome": "Operational"
+        "decay": "27 December 2015",
+        "outcome": "Successful"
       },
       {
         "name": "AESP-14",
@@ -61,11 +61,11 @@
         "operator": "ITA",
         "orbit": "Low Earth",
         "function": "Ionospheric",
-        "decay": "In orbit",
-        "outcome": "Operational"
+        "decay": "11 May 2015",
+        "outcome": "Successful"
       }
     ],
-    "remarks": "SpaceX attempted to land the first stage on a platform in the Atlantic Ocean, but the first stage crash-landed on its landing platform.[1] CubeSats to be deployed from the International Space Station at a later date."
+    "remarks": "SpaceX attempted to land the first stage on a platform in the Atlantic Ocean, but the first stage crash-landed on its landing platform.[1] The AESP-14 CubeSat was deployed from the space station on 5 February 2015,[2] while the Flock-1 CubeSats were deployed on 3 March 2015.[3]"
   },
   {
     "date": "2015-01-21T01:04:00+00:00",
@@ -101,181 +101,6 @@
       }
     ],
     "remarks": null
-  },
-  {
-    "date": "2015-01-26T09:13:00+00:00",
-    "rocket": {
-      "name": "Terrier-Improved Malemute",
-      "country": [
-        "United States"
-      ]
-    },
-    "launch_site": {
-      "name": "Poker Flat",
-      "country": [
-        "United States"
-      ]
-    },
-    "lsp": {
-      "name": "NASA",
-      "country": [
-        "United States"
-      ]
-    },
-    "payloads": [
-      {
-        "name": "M-TEX",
-        "country": [
-          "United States"
-        ],
-        "operator": "Alaska",
-        "orbit": "Suborbital",
-        "function": "Auroral",
-        "decay": "26 January",
-        "outcome": "Successful"
-      }
-    ],
-    "remarks": "Apogee: ~160 kilometres (99 mi)?"
-  },
-  {
-    "date": "2015-01-26T09:14:00+00:00",
-    "rocket": {
-      "name": "Terrier-Orion",
-      "country": [
-        "United States"
-      ]
-    },
-    "launch_site": {
-      "name": "Poker Flat",
-      "country": [
-        "United States"
-      ]
-    },
-    "lsp": {
-      "name": "NASA",
-      "country": [
-        "United States"
-      ]
-    },
-    "payloads": [
-      {
-        "name": "MIST",
-        "country": [
-          "United States"
-        ],
-        "operator": "Clemson",
-        "orbit": "Suborbital",
-        "function": "Auroral",
-        "decay": "26 January",
-        "outcome": "Successful"
-      }
-    ],
-    "remarks": "Apogee: ~130 kilometres (81 mi)?"
-  },
-  {
-    "date": "2015-01-26T09:46:00+00:00",
-    "rocket": {
-      "name": "Terrier-Improved Malemute",
-      "country": [
-        "United States"
-      ]
-    },
-    "launch_site": {
-      "name": "Poker Flat",
-      "country": [
-        "United States"
-      ]
-    },
-    "lsp": {
-      "name": "NASA",
-      "country": [
-        "United States"
-      ]
-    },
-    "payloads": [
-      {
-        "name": "M-TEX",
-        "country": [
-          "United States"
-        ],
-        "operator": "Alaska",
-        "orbit": "Suborbital",
-        "function": "Auroral",
-        "decay": "26 January",
-        "outcome": "Successful"
-      }
-    ],
-    "remarks": "Apogee: ~160 kilometres (99 mi)?"
-  },
-  {
-    "date": "2015-01-26T09:47:00+00:00",
-    "rocket": {
-      "name": "Terrier-Orion",
-      "country": [
-        "United States"
-      ]
-    },
-    "launch_site": {
-      "name": "Poker Flat",
-      "country": [
-        "United States"
-      ]
-    },
-    "lsp": {
-      "name": "NASA",
-      "country": [
-        "United States"
-      ]
-    },
-    "payloads": [
-      {
-        "name": "MIST",
-        "country": [
-          "United States"
-        ],
-        "operator": "Clemson",
-        "orbit": "Suborbital",
-        "function": "Auroral",
-        "decay": "26 January",
-        "outcome": "Successful"
-      }
-    ],
-    "remarks": "Apogee: ~130 kilometres (81 mi)?"
-  },
-  {
-    "date": "2015-01-28T10:41:00+00:00",
-    "rocket": {
-      "name": "Talos Terrier Oriole Nihka",
-      "country": [
-        "United States"
-      ]
-    },
-    "launch_site": {
-      "name": "Poker Flat",
-      "country": [
-        "United States"
-      ]
-    },
-    "lsp": {
-      "name": "NASA",
-      "country": [
-        "United States"
-      ]
-    },
-    "payloads": [
-      {
-        "name": "ASSP",
-        "country": [
-          "United States"
-        ],
-        "operator": "USU",
-        "orbit": "Suborbital",
-        "function": "Auroral",
-        "decay": "28 January",
-        "outcome": "Successful"
-      }
-    ],
-    "remarks": "Apogee: ~590 kilometres (370 mi)?"
   },
   {
     "date": "2015-01-31T14:22:00+00:00",
@@ -355,41 +180,6 @@
       }
     ],
     "remarks": null
-  },
-  {
-    "date": "2015-01-31T02:36:00+00:00",
-    "rocket": {
-      "name": "Agni V",
-      "country": [
-        "India"
-      ]
-    },
-    "launch_site": {
-      "name": "Integrated Test Range Launch Complex IV",
-      "country": [
-        "India"
-      ]
-    },
-    "lsp": {
-      "name": "DRDO",
-      "country": [
-        "India"
-      ]
-    },
-    "payloads": [
-      {
-        "name": "",
-        "country": [
-
-        ],
-        "operator": "DRDO",
-        "orbit": "Suborbital",
-        "function": "Missile test",
-        "decay": "31 January",
-        "outcome": "Successful"
-      }
-    ],
-    "remarks": "Apogee: ~100 kilometres (62 mi)"
   },
   {
     "date": "2015-02-01T01:21:00+00:00",
@@ -530,7 +320,7 @@
         "outcome": "Successful"
       }
     ],
-    "remarks": "Vega's 4th stage briefly entered low Earth orbit before de-orbiting."
+    "remarks": "Vega's 4th stage briefly entered low Earth orbit before de-orbiting. This marked the first flight of the IXV"
   },
   {
     "date": "2015-02-11T23:03:32+00:00",
@@ -559,7 +349,7 @@
           "United States"
         ],
         "operator": "NOAA",
-        "orbit": "Planned: Earth/Sun L1",
+        "orbit": "Earth/Sun L1",
         "function": "Earth Observation/Solar Observation",
         "decay": "In orbit",
         "outcome": "Operational"
@@ -596,292 +386,11 @@
         "operator": "Roskosmos",
         "orbit": "Low Earth (ISS)",
         "function": "ISS Resupply",
-        "decay": "In orbit",
-        "outcome": "Operational"
-      }
-    ],
-    "remarks": null
-  },
-  {
-    "date": "2015-02-19T22:06:00+00:00",
-    "rocket": {
-      "name": "VS-30/Improved Orion",
-      "country": [
-        "Brazil"
-      ]
-    },
-    "launch_site": {
-      "name": "Andøya",
-      "country": [
-        "Norway"
-      ]
-    },
-    "lsp": {
-      "name": "Andøya",
-      "country": [
-        "Norway"
-      ]
-    },
-    "payloads": [
-      {
-        "name": "ICI-4 (CanoRock 4)",
-        "country": [
-          "Sweden",
-          "Norway"
-        ],
-        "operator": "Oslo/Andøya",
-        "orbit": "Suborbital",
-        "function": "Technology",
-        "decay": "19 February",
-        "outcome": "Successful"
-      }
-    ],
-    "remarks": "Apogee: 365 kilometres (227 mi)"
-  },
-  {
-    "date": "2015-02-22T07:52:00+00:00",
-    "rocket": {
-      "name": "VSB-30",
-      "country": [
-        "Brazil"
-      ]
-    },
-    "launch_site": {
-      "name": "Esrange",
-      "country": [
-        "Sweden"
-      ]
-    },
-    "lsp": {
-      "name": "CNES",
-      "country": [
-        "France"
-      ]
-    },
-    "payloads": [
-      {
-        "name": "Cryofenix",
-        "country": [
-          "France"
-        ],
-        "operator": "CNES",
-        "orbit": "Suborbital",
-        "function": "Microgravity",
-        "decay": "22 February",
-        "outcome": "Successful"
-      }
-    ],
-    "remarks": "Apogee: 265 kilometres (165 mi)"
-  },
-  {
-    "date": "2015-02-22T00:00:00+00:00",
-    "rocket": {
-      "name": "UGM-133 Trident II D5",
-      "country": [
-        "United States"
-      ]
-    },
-    "launch_site": {
-      "name": "Submarine, Pacific Ocean",
-      "country": [
-        "United States"
-      ]
-    },
-    "lsp": {
-      "name": "US Navy",
-      "country": [
-        "United States"
-      ]
-    },
-    "payloads": [
-      {
-        "name": "",
-        "country": [
-
-        ],
-        "operator": "US Navy",
-        "orbit": "Suborbital",
-        "function": "Missile test",
-        "decay": "22 February",
+        "decay": "14 August\n14:17",
         "outcome": "Successful"
       }
     ],
     "remarks": null
-  },
-  {
-    "date": "2015-02-22T00:00:00+00:00",
-    "rocket": {
-      "name": "UGM-133 Trident II D5",
-      "country": [
-        "United States"
-      ]
-    },
-    "launch_site": {
-      "name": "Submarine, Pacific Ocean",
-      "country": [
-        "United States"
-      ]
-    },
-    "lsp": {
-      "name": "US Navy",
-      "country": [
-        "United States"
-      ]
-    },
-    "payloads": [
-      {
-        "name": "",
-        "country": [
-
-        ],
-        "operator": "US Navy",
-        "orbit": "Suborbital",
-        "function": "Missile test",
-        "decay": "22 February",
-        "outcome": "Successful"
-      }
-    ],
-    "remarks": null
-  },
-  {
-    "date": "2015-02-24T07:30:00+00:00",
-    "rocket": {
-      "name": "Terrier-Oriole",
-      "country": [
-        "United States"
-      ]
-    },
-    "launch_site": {
-      "name": "Wallops Island",
-      "country": [
-        "United States"
-      ]
-    },
-    "lsp": {
-      "name": "TBD",
-      "country": [
-        "United States"
-      ]
-    },
-    "payloads": [
-      {
-        "name": "",
-        "country": [
-
-        ],
-        "operator": "DOD",
-        "orbit": "Suborbital",
-        "function": "Missile Defense Test",
-        "decay": "24 February",
-        "outcome": "Successful"
-      }
-    ],
-    "remarks": "FTX-19 target, apogee: ~150 kilometres (93 mi)?"
-  },
-  {
-    "date": "2015-02-24T07:30:00+00:00",
-    "rocket": {
-      "name": "Terrier-Oriole",
-      "country": [
-        "United States"
-      ]
-    },
-    "launch_site": {
-      "name": "Wallops Island",
-      "country": [
-        "United States"
-      ]
-    },
-    "lsp": {
-      "name": "TBD",
-      "country": [
-        "United States"
-      ]
-    },
-    "payloads": [
-      {
-        "name": "",
-        "country": [
-
-        ],
-        "operator": "DOD",
-        "orbit": "Suborbital",
-        "function": "Missile Defense Test",
-        "decay": "24 February",
-        "outcome": "Successful"
-      }
-    ],
-    "remarks": "FTX-19 target, apogee: ~150 kilometres (93 mi)?"
-  },
-  {
-    "date": "2015-02-24T07:30:00+00:00",
-    "rocket": {
-      "name": "Terrier-Oriole",
-      "country": [
-        "United States"
-      ]
-    },
-    "launch_site": {
-      "name": "Wallops Island",
-      "country": [
-        "United States"
-      ]
-    },
-    "lsp": {
-      "name": "TBD",
-      "country": [
-        "United States"
-      ]
-    },
-    "payloads": [
-      {
-        "name": "",
-        "country": [
-
-        ],
-        "operator": "DOD",
-        "orbit": "Suborbital",
-        "function": "Missile Defense Test",
-        "decay": "24 February",
-        "outcome": "Successful"
-      }
-    ],
-    "remarks": "FTX-19 target, apogee: ~150 kilometres (93 mi)?"
-  },
-  {
-    "date": "2015-02-25T12:26:00+00:00",
-    "rocket": {
-      "name": "Black Brant IX",
-      "country": [
-        "Canada"
-      ]
-    },
-    "launch_site": {
-      "name": "White Sands",
-      "country": [
-        "United States"
-      ]
-    },
-    "lsp": {
-      "name": "NASA",
-      "country": [
-        "United States"
-      ]
-    },
-    "payloads": [
-      {
-        "name": "MOSC 2",
-        "country": [
-          "United States"
-        ],
-        "operator": "AFRL",
-        "orbit": "Suborbital",
-        "function": "Ionospheric",
-        "decay": "25 February",
-        "outcome": "Successful"
-      }
-    ],
-    "remarks": "Apogee: 300 kilometres (190 mi)?"
   },
   {
     "date": "2015-02-27T11:01:35+00:00",
@@ -953,7 +462,7 @@
       {
         "name": "ABS-3A",
         "country": [
-          "China"
+          "Bermuda"
         ],
         "operator": "ABS",
         "orbit": "Planned: Geosynchronous",
@@ -963,41 +472,6 @@
       }
     ],
     "remarks": "First communication satellites to use all-electric propulsion to reach intended orbits from GTO"
-  },
-  {
-    "date": "2015-03-05T01:44:00+00:00",
-    "rocket": {
-      "name": "VS-30",
-      "country": [
-        "Brazil"
-      ]
-    },
-    "launch_site": {
-      "name": "Andøya",
-      "country": [
-        "Norway"
-      ]
-    },
-    "lsp": {
-      "name": "DLR",
-      "country": [
-        "Germany"
-      ]
-    },
-    "payloads": [
-      {
-        "name": "WADIS-2",
-        "country": [
-          "Germany"
-        ],
-        "operator": "DLR",
-        "orbit": "Suborbital",
-        "function": "Atmospheric",
-        "decay": "5 March",
-        "outcome": "Successful"
-      }
-    ],
-    "remarks": "Apogee: 126 kilometres (78 mi), 13 Super Loki meteorological rockets were also launched"
   },
   {
     "date": "2015-03-13T02:44:00+00:00",
@@ -1140,7 +614,7 @@
   {
     "date": "2015-03-25T22:08:53+00:00",
     "rocket": {
-      "name": "Dnepr-1",
+      "name": "Dnepr",
       "country": [
         "Ukraine"
       ]
@@ -1237,8 +711,8 @@
         "operator": "Roskosmos",
         "orbit": "Low Earth (ISS)",
         "function": "Expedition 43/44/45/46",
-        "decay": "In orbit",
-        "outcome": "Operational"
+        "decay": "12 September\n00:51",
+        "outcome": "Successful"
       }
     ],
     "remarks": "Manned flight with three cosmonauts, including two on a year-long mission"
@@ -1265,7 +739,7 @@
     },
     "payloads": [
       {
-        "name": "Galileo FOC-3",
+        "name": "Galileo FOC 3",
         "country": [
           "European Union"
         ],
@@ -1276,7 +750,7 @@
         "outcome": "Operational"
       },
       {
-        "name": "Galileo FOC-4",
+        "name": "Galileo FOC 4",
         "country": [
           "European Union"
         ],
@@ -1346,7 +820,7 @@
     },
     "payloads": [
       {
-        "name": "BDS I1-S",
+        "name": "BeiDou I1-S",
         "country": [
           "China"
         ],
@@ -1453,33 +927,11 @@
         "country": [
           "United States"
         ],
-        "operator": "SpaceX",
+        "operator": "NASA",
         "orbit": "Low Earth (ISS)",
         "function": "ISS Resupply",
-        "decay": "In orbit",
-        "outcome": "Operational"
-      },
-      {
-        "name": "AggieSat 4",
-        "country": [
-          "United States"
-        ],
-        "operator": "Texas A&M",
-        "orbit": "Planned: Low Earth",
-        "function": "Technology",
-        "decay": " ",
-        "outcome": ""
-      },
-      {
-        "name": "Bevo 2",
-        "country": [
-          "United States"
-        ],
-        "operator": "University of Texas at Austin",
-        "orbit": "Planned: Low Earth",
-        "function": "Technology",
-        "decay": " ",
-        "outcome": ""
+        "decay": "21 May\n16:42",
+        "outcome": "Successful"
       },
       {
         "name": "Arkyd 3 Reflight",
@@ -1489,57 +941,22 @@
         "operator": "Planetary Resources",
         "orbit": "Planned: Low Earth",
         "function": "Technology",
-        "decay": " ",
-        "outcome": ""
+        "decay": "23 December 2015",
+        "outcome": "Successful"
       },
       {
-        "name": "Flock-1e x 14",
+        "name": "Flock-1e 1–14",
         "country": [
           "United States"
         ],
         "operator": "Planet Labs",
         "orbit": "Planned: Low Earth",
         "function": "Optical imaging",
-        "decay": " ",
-        "outcome": ""
+        "decay": "first: 8 February 2016\n(2 decayed as of 15 May 2016[update])",
+        "outcome": "Operational (12 still in orbit)"
       }
     ],
-    "remarks": "First stage recovery failed; the rocket stage landed on the target drone ship too fast, tipped over, and exploded.[3]\nAll secondary payloads will be deployed from an ISS airlock at a later date. Arkyd 3 Reflight is a replacement for Arkyd 3, which was lost in the Cygnus CRS Orb-3 flight accident in 2014."
-  },
-  {
-    "date": "2015-04-18T11:01:00+00:00",
-    "rocket": {
-      "name": "Terrier-Improved Malemute",
-      "country": [
-        "United States"
-      ]
-    },
-    "launch_site": {
-      "name": "Wallops Island",
-      "country": [
-        "United States"
-      ]
-    },
-    "lsp": {
-      "name": "NASA",
-      "country": [
-        "United States"
-      ]
-    },
-    "payloads": [
-      {
-        "name": "Rocksat-X",
-        "country": [
-          "United States"
-        ],
-        "operator": "University of Colorado Boulder",
-        "orbit": "Suborbital",
-        "function": "Student Research",
-        "decay": "18 April",
-        "outcome": "Successful"
-      }
-    ],
-    "remarks": "Apogee: ~174 kilometres (108 mi)"
+    "remarks": "First stage recovery failed; the rocket stage landed on the target drone ship too fast, tipped over, and exploded.[4]\nAll secondary payloads were deployed from an ISS airlock later. Arkyd 3 Reflight is a replacement for Arkyd 3, which was lost in the Cygnus CRS Orb-3 flight accident in 2014."
   },
   {
     "date": "2015-04-26T20:00:07+00:00",
@@ -1656,42 +1073,7 @@
         "outcome": "Partial failure"
       }
     ],
-    "remarks": "Spacecraft lost communications and attitude control soon after separation after damaged by vibration issues during launch.[4] International Space Station docking attempt cancelled.[5] Mission declared a total loss.[6]"
-  },
-  {
-    "date": "2015-05-02T08:30:01+00:00",
-    "rocket": {
-      "name": "Black Brant IX",
-      "country": [
-        "Canada"
-      ]
-    },
-    "launch_site": {
-      "name": "White Sands",
-      "country": [
-        "United States"
-      ]
-    },
-    "lsp": {
-      "name": "NASA",
-      "country": [
-        "United States"
-      ]
-    },
-    "payloads": [
-      {
-        "name": "OGRESS",
-        "country": [
-          "United States"
-        ],
-        "operator": "University of Iowa",
-        "orbit": "Suborbital",
-        "function": "X-Ray Astronomy",
-        "decay": "2 May",
-        "outcome": "Successful"
-      }
-    ],
-    "remarks": "Apogee: 272 kilometres (169 mi)"
+    "remarks": "Spacecraft lost communications and attitude control soon after separation failure during launch.[5] International Space Station docking attempt cancelled.[6] Mission declared a total loss.[7]"
   },
   {
     "date": "2015-05-16T05:47:39+00:00",
@@ -1727,7 +1109,7 @@
         "outcome": "Launch failure"
       }
     ],
-    "remarks": "Proton third stage vernier engine failed at T+497 seconds due to turbopump shaft coating degradation causing excess vibration.[7]"
+    "remarks": "Proton third stage vernier engine failed at T+497 seconds due to turbopump shaft coating degradation causing excess vibration.[8]"
   },
   {
     "date": "2015-05-20T15:05:00+00:00",
@@ -2097,14 +1479,14 @@
         "country": [
           "United States"
         ],
-        "operator": "SpaceX",
+        "operator": "NASA",
         "orbit": "Planned: Low Earth (ISS)",
         "function": "ISS Resupply",
         "decay": "28 June",
         "outcome": "Launch Failure"
       },
       {
-        "name": "Flock-1f x 8[8]",
+        "name": "Flock-1f x 8[10]",
         "country": [
           "United States"
         ],
@@ -2115,6 +1497,2844 @@
         "outcome": "Launch Failure"
       }
     ],
-    "remarks": "Vehicle disintegrated at T+139 seconds. Attempted to deliver the IDA-1 segment of the NASA Docking System. CubeSats were to be deployed from the International Space Station at a later date. Planned first stage landing test not achieved."
+    "remarks": "Vehicle disintegrated at T+139 seconds after second stage helium tank support strut failure caused helium tank to break through second stage tanks.[9] Attempted to deliver the IDA-1 segment of the NASA Docking System. CubeSats were to be deployed from the International Space Station at a later date. Planned first stage landing test not achieved."
+  },
+  {
+    "date": "2015-07-03T04:55:48+00:00",
+    "rocket": {
+      "name": "Soyuz-U",
+      "country": [
+        "Russia"
+      ]
+    },
+    "launch_site": {
+      "name": "Baikonur Site 1/5",
+      "country": [
+        "Kazakhstan"
+      ]
+    },
+    "lsp": {
+      "name": "Roskosmos",
+      "country": [
+        "Russia"
+      ]
+    },
+    "payloads": [
+      {
+        "name": "Progress M-28M",
+        "country": [
+          "Russia"
+        ],
+        "operator": "Roskosmos",
+        "orbit": "Low Earth (ISS)",
+        "function": "ISS Resupply",
+        "decay": "15 December",
+        "outcome": "Successful"
+      }
+    ],
+    "remarks": null
+  },
+  {
+    "date": "2015-07-10T16:28:00+00:00",
+    "rocket": {
+      "name": "PSLV-XL",
+      "country": [
+        "India"
+      ]
+    },
+    "launch_site": {
+      "name": "Satish Dhawan FLP",
+      "country": [
+        "India"
+      ]
+    },
+    "lsp": {
+      "name": "ISRO",
+      "country": [
+        "India"
+      ]
+    },
+    "payloads": [
+      {
+        "name": "UK-DMC-3A",
+        "country": [
+          "United Kingdom"
+        ],
+        "operator": "DMCii",
+        "orbit": "Low Earth (SSO)",
+        "function": "Earth Observation",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "UK-DMC-3B",
+        "country": [
+          "United Kingdom"
+        ],
+        "operator": "DMCii",
+        "orbit": "Low Earth (SSO)",
+        "function": "Earth Observation",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "UK-DMC-3C",
+        "country": [
+          "United Kingdom"
+        ],
+        "operator": "DMCii",
+        "orbit": "Low Earth (SSO)",
+        "function": "Earth Observation",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "CBNT-1",
+        "country": [
+          "United Kingdom"
+        ],
+        "operator": "SSTL",
+        "orbit": "Low Earth (SSO)",
+        "function": "Technology",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "DeOrbitSail",
+        "country": [
+          "United Kingdom"
+        ],
+        "operator": "Surrey Space Centre",
+        "orbit": "Low Earth (SSO)",
+        "function": "Technology",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      }
+    ],
+    "remarks": null
+  },
+  {
+    "date": "2015-07-15T15:36:00+00:00",
+    "rocket": {
+      "name": "Atlas V 401",
+      "country": [
+        "United States"
+      ]
+    },
+    "launch_site": {
+      "name": "Cape Canaveral SLC-41",
+      "country": [
+        "United States"
+      ]
+    },
+    "lsp": {
+      "name": "United Launch Alliance",
+      "country": [
+        "United States"
+      ]
+    },
+    "payloads": [
+      {
+        "name": "USA-262 (GPS IIF-10)",
+        "country": [
+          "United States"
+        ],
+        "operator": "US Air Force",
+        "orbit": "Medium Earth",
+        "function": "Navigation",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      }
+    ],
+    "remarks": null
+  },
+  {
+    "date": "2015-07-15T21:42:07+00:00",
+    "rocket": {
+      "name": "Ariane 5 ECA",
+      "country": [
+        "European Union"
+      ]
+    },
+    "launch_site": {
+      "name": "Kourou ELA-3",
+      "country": [
+        "France"
+      ]
+    },
+    "lsp": {
+      "name": "Arianespace",
+      "country": [
+        "France"
+      ]
+    },
+    "payloads": [
+      {
+        "name": "Star One C4",
+        "country": [
+          "Brazil"
+        ],
+        "operator": "Star One",
+        "orbit": "Geosynchronous",
+        "function": "Communication",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "MSG-4",
+        "country": [
+          "European Union"
+        ],
+        "operator": "EUMETSAT",
+        "orbit": "Geosynchronous",
+        "function": "Meteorology",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      }
+    ],
+    "remarks": null
+  },
+  {
+    "date": "2015-07-22T21:02:44+00:00",
+    "rocket": {
+      "name": "Soyuz-FG",
+      "country": [
+        "Russia"
+      ]
+    },
+    "launch_site": {
+      "name": "Baikonur Site 1/5",
+      "country": [
+        "Kazakhstan"
+      ]
+    },
+    "lsp": {
+      "name": "Roskosmos",
+      "country": [
+        "Russia"
+      ]
+    },
+    "payloads": [
+      {
+        "name": "Soyuz TMA-17M",
+        "country": [
+          "Russia"
+        ],
+        "operator": "Roskosmos",
+        "orbit": "Low Earth (ISS)",
+        "function": "Expedition 44/45",
+        "decay": "11 December\n13:10",
+        "outcome": "Successful"
+      }
+    ],
+    "remarks": "Manned flight with three cosmonauts"
+  },
+  {
+    "date": "2015-07-24T00:07:00+00:00",
+    "rocket": {
+      "name": "Delta IV M+(5,4)",
+      "country": [
+        "United States"
+      ]
+    },
+    "launch_site": {
+      "name": "Cape Canaveral SLC-37B",
+      "country": [
+        "United States"
+      ]
+    },
+    "lsp": {
+      "name": "United Launch Alliance",
+      "country": [
+        "United States"
+      ]
+    },
+    "payloads": [
+      {
+        "name": "USA-263 (WGS-7)",
+        "country": [
+          "United States"
+        ],
+        "operator": "US Air Force",
+        "orbit": "Geosynchronous",
+        "function": "Communication",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      }
+    ],
+    "remarks": null
+  },
+  {
+    "date": "2015-07-25T12:29:04+00:00",
+    "rocket": {
+      "name": "Long March 3B/YZ-1",
+      "country": [
+        "China"
+      ]
+    },
+    "launch_site": {
+      "name": "Xichang LA-2",
+      "country": [
+        "China"
+      ]
+    },
+    "lsp": {
+      "name": "CASC",
+      "country": [
+        "China"
+      ]
+    },
+    "payloads": [
+      {
+        "name": "BeiDou M1-S",
+        "country": [
+          "China"
+        ],
+        "operator": "CNSA",
+        "orbit": "Medium Earth",
+        "function": "Navigation",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "BeiDou M2-S",
+        "country": [
+          "China"
+        ],
+        "operator": "CNSA",
+        "orbit": "Medium Earth",
+        "function": "Navigation",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      }
+    ],
+    "remarks": null
+  },
+  {
+    "date": "2015-08-19T11:50:49+00:00",
+    "rocket": {
+      "name": "H-IIB",
+      "country": [
+        "Japan"
+      ]
+    },
+    "launch_site": {
+      "name": "Tanegashima LA-Y2",
+      "country": [
+        "Japan"
+      ]
+    },
+    "lsp": {
+      "name": "MHI",
+      "country": [
+        "Japan"
+      ]
+    },
+    "payloads": [
+      {
+        "name": "HTV-5",
+        "country": [
+          "Japan"
+        ],
+        "operator": "JAXA",
+        "orbit": "Low Earth (ISS)",
+        "function": "ISS Resupply",
+        "decay": "29 September",
+        "outcome": "Successful"
+      },
+      {
+        "name": "SERPENS",
+        "country": [
+          "Brazil"
+        ],
+        "operator": "University of Brasília / Brazilian Space Agency",
+        "orbit": "Low Earth",
+        "function": "Technology",
+        "decay": "27 March 2016",
+        "outcome": "Successful"
+      },
+      {
+        "name": "S-CUBE",
+        "country": [
+          "Japan"
+        ],
+        "operator": "Chiba Institute of Technology",
+        "orbit": "Low Earth",
+        "function": "Meteor observation",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "Flock-2b x 14[12]",
+        "country": [
+          "United States"
+        ],
+        "operator": "Planet Labs",
+        "orbit": "Planned: Low Earth",
+        "function": "Optical Imaging",
+        "decay": "In orbit",
+        "outcome": "Operational\n(12 deployed)"
+      },
+      {
+        "name": "AAUSAT5",
+        "country": [
+          "Denmark"
+        ],
+        "operator": "Aalborg",
+        "orbit": "Low Earth",
+        "function": "Technology",
+        "decay": "15 March 2016",
+        "outcome": "Successful"
+      },
+      {
+        "name": "GOMX-3",
+        "country": [
+          "Denmark"
+        ],
+        "operator": "GomSpace",
+        "orbit": "Low Earth",
+        "function": "Technology",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      }
+    ],
+    "remarks": "CubeSats to be deployed from the International Space Station at a later date. SERPENS and S-CUBE were deployed on 17 September. AAUSAT5, GOMX-3, and Dove Flocks were deployed on 5–7 October, but two out of the fourteen Dove Flocks failed to be deployed due to a malfunction of the deployer.[11]"
+  },
+  {
+    "date": "2015-08-20T20:34:08+00:00",
+    "rocket": {
+      "name": "Ariane 5 ECA",
+      "country": [
+        "European Union"
+      ]
+    },
+    "launch_site": {
+      "name": "Kourou ELA-3",
+      "country": [
+        "France"
+      ]
+    },
+    "lsp": {
+      "name": "Arianespace",
+      "country": [
+        "France"
+      ]
+    },
+    "payloads": [
+      {
+        "name": "Eutelsat 8 West B",
+        "country": [
+          "France"
+        ],
+        "operator": "Eutelsat",
+        "orbit": "Geosynchronous",
+        "function": "Communication",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "Intelsat 34",
+        "country": [
+          "United States"
+        ],
+        "operator": "Intelsat",
+        "orbit": "Geosynchronous",
+        "function": "Communication",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      }
+    ],
+    "remarks": null
+  },
+  {
+    "date": "2015-08-27T02:31:35+00:00",
+    "rocket": {
+      "name": "Long March 4C",
+      "country": [
+        "China"
+      ]
+    },
+    "launch_site": {
+      "name": "Taiyuan LA-9",
+      "country": [
+        "China"
+      ]
+    },
+    "lsp": {
+      "name": "SAST",
+      "country": [
+        "China"
+      ]
+    },
+    "payloads": [
+      {
+        "name": "Yaogan 27",
+        "country": [
+          "China"
+        ],
+        "operator": "CNSA",
+        "orbit": "Low Earth (SSO)",
+        "function": "Reconnaissance",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      }
+    ],
+    "remarks": null
+  },
+  {
+    "date": "2015-08-27T11:22:00+00:00",
+    "rocket": {
+      "name": "GSLV Mk II",
+      "country": [
+        "India"
+      ]
+    },
+    "launch_site": {
+      "name": "Satish Dhawan SLP",
+      "country": [
+        "India"
+      ]
+    },
+    "lsp": {
+      "name": "ISRO",
+      "country": [
+        "India"
+      ]
+    },
+    "payloads": [
+      {
+        "name": "GSAT-6",
+        "country": [
+          "India"
+        ],
+        "operator": "Indian Armed Forces/ISRO",
+        "orbit": "Geosynchronous",
+        "function": "Communications",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      }
+    ],
+    "remarks": null
+  },
+  {
+    "date": "2015-08-28T11:44:00+00:00",
+    "rocket": {
+      "name": "Proton-M/Briz-M",
+      "country": [
+        "Russia"
+      ]
+    },
+    "launch_site": {
+      "name": "Baikonur Site 200/39",
+      "country": [
+        "Kazakhstan"
+      ]
+    },
+    "lsp": {
+      "name": "International Launch Services",
+      "country": [
+        "Russia",
+        "United States"
+      ]
+    },
+    "payloads": [
+      {
+        "name": "Inmarsat 5-F3",
+        "country": [
+          "United Kingdom"
+        ],
+        "operator": "Inmarsat",
+        "orbit": "Geosynchronous",
+        "function": "Communication",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      }
+    ],
+    "remarks": null
+  },
+  {
+    "date": "2015-09-02T04:37:43+00:00",
+    "rocket": {
+      "name": "Soyuz-FG",
+      "country": [
+        "Russia"
+      ]
+    },
+    "launch_site": {
+      "name": "Baikonur Site 1/5",
+      "country": [
+        "Kazakhstan"
+      ]
+    },
+    "lsp": {
+      "name": "Roskosmos",
+      "country": [
+        "Russia"
+      ]
+    },
+    "payloads": [
+      {
+        "name": "Soyuz TMA-18M",
+        "country": [
+          "Russia"
+        ],
+        "operator": "Roskosmos",
+        "orbit": "Low Earth (ISS)",
+        "function": "Expedition 45/46/iriss[15]",
+        "decay": "2 March 2016\n04:26",
+        "outcome": "Successful"
+      }
+    ],
+    "remarks": "Manned flight with three cosmonauts: including ESA astronaut Andreas Mogensen, the first Dane in space, and Aidyn Aimbetov, the first cosmonaut from an independent Kazakhstan.\nSarah Brightman was intended to fly this mission as a spaceflight participant, but withdrew from training on 13 May 2015 for personal reasons.[13] Japanese space tourist Satoshi Takamatsu was believed to be taking Brightman's place, but he declined and Roscosmos chose Aimbetov as an alternative instead.[14]\nLanded with the Year in Space crew of Scott Kelly and Mikhail Korniyenko"
+  },
+  {
+    "date": "2015-09-02T10:18:00+00:00",
+    "rocket": {
+      "name": "Atlas V 551",
+      "country": [
+        "United States"
+      ]
+    },
+    "launch_site": {
+      "name": "Cape Canaveral SLC-41",
+      "country": [
+        "United States"
+      ]
+    },
+    "lsp": {
+      "name": "United Launch Alliance",
+      "country": [
+        "United States"
+      ]
+    },
+    "payloads": [
+      {
+        "name": "MUOS-4",
+        "country": [
+          "United States"
+        ],
+        "operator": "US Navy",
+        "orbit": "Geosynchronous",
+        "function": "Communications",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      }
+    ],
+    "remarks": null
+  },
+  {
+    "date": "2015-09-11T02:08:10+00:00",
+    "rocket": {
+      "name": "Soyuz-STB/Fregat",
+      "country": [
+        "Russia"
+      ]
+    },
+    "launch_site": {
+      "name": "Kourou ELS",
+      "country": [
+        "France"
+      ]
+    },
+    "lsp": {
+      "name": "Arianespace",
+      "country": [
+        "France"
+      ]
+    },
+    "payloads": [
+      {
+        "name": "Galileo FOC 5",
+        "country": [
+          "European Union"
+        ],
+        "operator": "ESA",
+        "orbit": "Medium Earth",
+        "function": "Navigation",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "Galileo FOC 6",
+        "country": [
+          "European Union"
+        ],
+        "operator": "ESA",
+        "orbit": "Medium Earth",
+        "function": "Navigation",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      }
+    ],
+    "remarks": null
+  },
+  {
+    "date": "2015-09-12T15:42:04+00:00",
+    "rocket": {
+      "name": "Long March 3B/E",
+      "country": [
+        "China"
+      ]
+    },
+    "launch_site": {
+      "name": "Xichang LA-2",
+      "country": [
+        "China"
+      ]
+    },
+    "lsp": {
+      "name": "CASC",
+      "country": [
+        "China"
+      ]
+    },
+    "payloads": [
+      {
+        "name": "TJS-1",
+        "country": [
+          "China"
+        ],
+        "operator": "CNSA",
+        "orbit": "Geosynchronous",
+        "function": "Communication",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      }
+    ],
+    "remarks": null
+  },
+  {
+    "date": "2015-09-14T04:42:00+00:00",
+    "rocket": {
+      "name": "Long March 2D",
+      "country": [
+        "China"
+      ]
+    },
+    "launch_site": {
+      "name": "Jiuquan LA-4/SLS-2",
+      "country": [
+        "China"
+      ]
+    },
+    "lsp": {
+      "name": "SAST",
+      "country": [
+        "China"
+      ]
+    },
+    "payloads": [
+      {
+        "name": "Gaofen 9",
+        "country": [
+          "China"
+        ],
+        "operator": "CNSA",
+        "orbit": "Low Earth (SSO)",
+        "function": "Earth Observation/Reconnaissance",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      }
+    ],
+    "remarks": null
+  },
+  {
+    "date": "2015-09-14T19:00:00+00:00",
+    "rocket": {
+      "name": "Proton-M/Blok DM-03",
+      "country": [
+        "Russia"
+      ]
+    },
+    "launch_site": {
+      "name": "Baikonur Site 81/24",
+      "country": [
+        "Kazakhstan"
+      ]
+    },
+    "lsp": {
+      "name": "Khrunichev",
+      "country": [
+        "Russia"
+      ]
+    },
+    "payloads": [
+      {
+        "name": "Ekspress AM8",
+        "country": [
+          "Russia"
+        ],
+        "operator": "RSCC",
+        "orbit": "Geosynchronous",
+        "function": "Communication",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      }
+    ],
+    "remarks": null
+  },
+  {
+    "date": "2015-09-19T23:01:14+00:00",
+    "rocket": {
+      "name": "Long March 6",
+      "country": [
+        "China"
+      ]
+    },
+    "launch_site": {
+      "name": "Taiyuan LA-16",
+      "country": [
+        "China"
+      ]
+    },
+    "lsp": {
+      "name": "SAST",
+      "country": [
+        "China"
+      ]
+    },
+    "payloads": [
+      {
+        "name": "ZDPS-2A",
+        "country": [
+          "China"
+        ],
+        "operator": "ZJU",
+        "orbit": "Low Earth (SSO)",
+        "function": "Technology",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "ZDPS-2B",
+        "country": [
+          "China"
+        ],
+        "operator": "ZJU",
+        "orbit": "Low Earth (SSO)",
+        "function": "Technology",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "Xiwang-2A",
+        "country": [
+          "China"
+        ],
+        "operator": "CAMSAT",
+        "orbit": "Low Earth (SSO)",
+        "function": "Amateur Radio",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "Xiwang-2B",
+        "country": [
+          "China"
+        ],
+        "operator": "CAMSAT",
+        "orbit": "Low Earth (SSO)",
+        "function": "Amateur Radio",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "Xiwang-2C",
+        "country": [
+          "China"
+        ],
+        "operator": "CAMSAT",
+        "orbit": "Low Earth (SSO)",
+        "function": "Amateur Radio",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "Xiwang-2D",
+        "country": [
+          "China"
+        ],
+        "operator": "CAMSAT",
+        "orbit": "Low Earth (SSO)",
+        "function": "Amateur Radio",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "Xiwang-2E",
+        "country": [
+          "China"
+        ],
+        "operator": "CAMSAT",
+        "orbit": "Low Earth (SSO)",
+        "function": "Amateur Radio",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "Xiwang-2F",
+        "country": [
+          "China"
+        ],
+        "operator": "CAMSAT",
+        "orbit": "Low Earth (SSO)",
+        "function": "Amateur Radio",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "XY-2",
+        "country": [
+          "China"
+        ],
+        "operator": "CASC",
+        "orbit": "Low Earth (SSO)",
+        "function": "Technology",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "DCBB",
+        "country": [
+          "China"
+        ],
+        "operator": "CAMSAT",
+        "orbit": "Low Earth (SSO)",
+        "function": "Education",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "LilacSat-2",
+        "country": [
+          "China"
+        ],
+        "operator": "HIT",
+        "orbit": "Low Earth (SSO)",
+        "function": "Technology",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "Tiantuo-3",
+        "country": [
+          "China"
+        ],
+        "operator": "NUDT",
+        "orbit": "Low Earth (SSO)",
+        "function": "Technology",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "NUDT-Phone-Sat",
+        "country": [
+          "China"
+        ],
+        "operator": "NUDT",
+        "orbit": "Low Earth (SSO)",
+        "function": "Technology",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "Xingchen 1",
+        "country": [
+          "China"
+        ],
+        "operator": "NUDT",
+        "orbit": "Low Earth (SSO)",
+        "function": "Technology",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "Xingchen 2",
+        "country": [
+          "China"
+        ],
+        "operator": "NUDT",
+        "orbit": "Low Earth (SSO)",
+        "function": "Technology",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "Xingchen 3",
+        "country": [
+          "China"
+        ],
+        "operator": "NUDT",
+        "orbit": "Low Earth (SSO)",
+        "function": "Technology",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "Xingchen 4",
+        "country": [
+          "China"
+        ],
+        "operator": "NUDT",
+        "orbit": "Low Earth (SSO)",
+        "function": "Technology",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "NS-2",
+        "country": [
+          "China"
+        ],
+        "operator": "Tsinghua",
+        "orbit": "Low Earth (SSO)",
+        "function": "Technology",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "ZJ-1",
+        "country": [
+          "China"
+        ],
+        "operator": "Tsinghua",
+        "orbit": "Low Earth (SSO)",
+        "function": "Technology",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "ZJ-2",
+        "country": [
+          "China"
+        ],
+        "operator": "Tsinghua/Xidian",
+        "orbit": "Low Earth (SSO)",
+        "function": "Technology",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      }
+    ],
+    "remarks": "Maiden flight of the Long March 6 vehicle"
+  },
+  {
+    "date": "2015-09-23T21:59:38+00:00",
+    "rocket": {
+      "name": "Rokot/Briz-KM",
+      "country": [
+        "Russia"
+      ]
+    },
+    "launch_site": {
+      "name": "Plesetsk Site 133/3",
+      "country": [
+        "Russia"
+      ]
+    },
+    "lsp": {
+      "name": "VKO",
+      "country": [
+        "Russia"
+      ]
+    },
+    "payloads": [
+      {
+        "name": "Kosmos 2507 (Strela-3M)",
+        "country": [
+          "Russia"
+        ],
+        "operator": "VKO",
+        "orbit": "Low Earth",
+        "function": "Communication",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "Kosmos 2508 (Strela-3M)",
+        "country": [
+          "Russia"
+        ],
+        "operator": "VKO",
+        "orbit": "Low Earth",
+        "function": "Communication",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "Kosmos 2509 (Strela-3M)",
+        "country": [
+          "Russia"
+        ],
+        "operator": "VKO",
+        "orbit": "Low Earth",
+        "function": "Communication",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      }
+    ],
+    "remarks": null
+  },
+  {
+    "date": "2015-09-25T01:41:40+00:00",
+    "rocket": {
+      "name": "Long March 11",
+      "country": [
+        "China"
+      ]
+    },
+    "launch_site": {
+      "name": "Jiuquan",
+      "country": [
+        "China"
+      ]
+    },
+    "lsp": {
+      "name": "CASC",
+      "country": [
+        "China"
+      ]
+    },
+    "payloads": [
+      {
+        "name": "Pujiang-1",
+        "country": [
+          "China"
+        ],
+        "operator": "SAST",
+        "orbit": "Low Earth (SSO)",
+        "function": "Technology",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "Tianwang 1A",
+        "country": [
+          "China"
+        ],
+        "operator": "ShanghaiTech",
+        "orbit": "Low Earth (SSO)",
+        "function": "Technology",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "Tianwang 1B",
+        "country": [
+          "China"
+        ],
+        "operator": "ShanghaiTech",
+        "orbit": "Low Earth (SSO)",
+        "function": "Technology",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "Tianwang 1C",
+        "country": [
+          "China"
+        ],
+        "operator": "ShanghaiTech",
+        "orbit": "Low Earth (SSO)",
+        "function": "Technology",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      }
+    ],
+    "remarks": "Maiden flight of the Long March 11 vehicle"
+  },
+  {
+    "date": "2015-09-28T04:30:00+00:00",
+    "rocket": {
+      "name": "PSLV-XL",
+      "country": [
+        "India"
+      ]
+    },
+    "launch_site": {
+      "name": "Satish Dhawan FLP",
+      "country": [
+        "India"
+      ]
+    },
+    "lsp": {
+      "name": "ISRO",
+      "country": [
+        "India"
+      ]
+    },
+    "payloads": [
+      {
+        "name": "Astrosat",
+        "country": [
+          "India"
+        ],
+        "operator": "ISRO",
+        "orbit": "Low Earth",
+        "function": "X-ray Astronomy",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "LAPAN-A2",
+        "country": [
+          "Indonesia"
+        ],
+        "operator": "LAPAN",
+        "orbit": "Low Earth",
+        "function": "Earth observation",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "ExactView 9",
+        "country": [
+          "Canada"
+        ],
+        "operator": "exactEarth",
+        "orbit": "Low Earth",
+        "function": "Maritime Observation",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "Lemur-2 1",
+        "country": [
+          "United States"
+        ],
+        "operator": "NanoSatisfi Inc",
+        "orbit": "Low Earth",
+        "function": "Earth Observation",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "Lemur-2 2",
+        "country": [
+          "United States"
+        ],
+        "operator": "NanoSatisfi Inc",
+        "orbit": "Low Earth",
+        "function": "Earth Observation",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "Lemur-2 3",
+        "country": [
+          "United States"
+        ],
+        "operator": "NanoSatisfi Inc",
+        "orbit": "Low Earth",
+        "function": "Earth Observation",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "Lemur-2 4",
+        "country": [
+          "United States"
+        ],
+        "operator": "NanoSatisfi Inc",
+        "orbit": "Low Earth",
+        "function": "Earth Observation",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      }
+    ],
+    "remarks": null
+  },
+  {
+    "date": "2015-09-29T23:13:04+00:00",
+    "rocket": {
+      "name": "Long March 3B/E",
+      "country": [
+        "China"
+      ]
+    },
+    "launch_site": {
+      "name": "Xichang LA-3",
+      "country": [
+        "China"
+      ]
+    },
+    "lsp": {
+      "name": "CASC",
+      "country": [
+        "China"
+      ]
+    },
+    "payloads": [
+      {
+        "name": "BeiDou I2-S",
+        "country": [
+          "China"
+        ],
+        "operator": "CNSA",
+        "orbit": "Geosynchronous",
+        "function": "Navigation",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      }
+    ],
+    "remarks": null
+  },
+  {
+    "date": "2015-09-30T20:30:07+00:00",
+    "rocket": {
+      "name": "Ariane 5 ECA",
+      "country": [
+        "European Union"
+      ]
+    },
+    "launch_site": {
+      "name": "Kourou ELA-3",
+      "country": [
+        "France"
+      ]
+    },
+    "lsp": {
+      "name": "Arianespace",
+      "country": [
+        "France"
+      ]
+    },
+    "payloads": [
+      {
+        "name": "NBN-Co 1A (Sky Muster)",
+        "country": [
+          "Australia"
+        ],
+        "operator": "NBN Co",
+        "orbit": "Geosynchronous",
+        "function": "Communication",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "ARSAT-2",
+        "country": [
+          "Argentina"
+        ],
+        "operator": "ARSAT",
+        "orbit": "Geosynchronous",
+        "function": "Communication",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      }
+    ],
+    "remarks": null
+  },
+  {
+    "date": "2015-10-01T16:49:40+00:00",
+    "rocket": {
+      "name": "Soyuz-U",
+      "country": [
+        "Russia"
+      ]
+    },
+    "launch_site": {
+      "name": "Baikonur Site 1/5",
+      "country": [
+        "Kazakhstan"
+      ]
+    },
+    "lsp": {
+      "name": "Roskosmos",
+      "country": [
+        "Russia"
+      ]
+    },
+    "payloads": [
+      {
+        "name": "Progress M-29M",
+        "country": [
+          "Russia"
+        ],
+        "operator": "Roskosmos",
+        "orbit": "Low Earth (ISS)",
+        "function": "ISS Resupply",
+        "decay": "8 April 2016",
+        "outcome": "Successful"
+      }
+    ],
+    "remarks": null
+  },
+  {
+    "date": "2015-10-02T10:28:00+00:00",
+    "rocket": {
+      "name": "Atlas V 421",
+      "country": [
+        "United States"
+      ]
+    },
+    "launch_site": {
+      "name": "Cape Canaveral SLC-41",
+      "country": [
+        "United States"
+      ]
+    },
+    "lsp": {
+      "name": "United Launch Alliance",
+      "country": [
+        "United States"
+      ]
+    },
+    "payloads": [
+      {
+        "name": "Mexsat-2",
+        "country": [
+          "Mexico"
+        ],
+        "operator": "SCT",
+        "orbit": "Geosynchronous",
+        "function": "Communication",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      }
+    ],
+    "remarks": null
+  },
+  {
+    "date": "2015-10-07T04:13:04+00:00",
+    "rocket": {
+      "name": "Long March 2D",
+      "country": [
+        "China"
+      ]
+    },
+    "launch_site": {
+      "name": "Jiuquan LA-4/SLS-2",
+      "country": [
+        "China"
+      ]
+    },
+    "lsp": {
+      "name": "SAST",
+      "country": [
+        "China"
+      ]
+    },
+    "payloads": [
+      {
+        "name": "Jilin-1A",
+        "country": [
+          "China"
+        ],
+        "operator": "CAS CIOMP",
+        "orbit": "Low Earth (SSO)",
+        "function": "Earth Observation",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "Jilin-1B",
+        "country": [
+          "China"
+        ],
+        "operator": "CAS CIOMP",
+        "orbit": "Low Earth (SSO)",
+        "function": "Earth Observation",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "Jilin-1C",
+        "country": [
+          "China"
+        ],
+        "operator": "CAS CIOMP",
+        "orbit": "Low Earth (SSO)",
+        "function": "Earth Observation",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "Jilin-1D",
+        "country": [
+          "China"
+        ],
+        "operator": "CAS CIOMP",
+        "orbit": "Low Earth (SSO)",
+        "function": "Earth Observation",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      }
+    ],
+    "remarks": null
+  },
+  {
+    "date": "2015-10-08T12:49:30+00:00",
+    "rocket": {
+      "name": "Atlas V 401",
+      "country": [
+        "United States"
+      ]
+    },
+    "launch_site": {
+      "name": "Vandenberg SLC-3E",
+      "country": [
+        "United States"
+      ]
+    },
+    "lsp": {
+      "name": "United Launch Alliance",
+      "country": [
+        "United States"
+      ]
+    },
+    "payloads": [
+      {
+        "name": "USA-264 (NOSS)",
+        "country": [
+          "United States"
+        ],
+        "operator": "NRO",
+        "orbit": "Low Earth",
+        "function": "ELINT",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "USA-264 (NOSS)",
+        "country": [
+          "United States"
+        ],
+        "operator": "NRO",
+        "orbit": "Low Earth",
+        "function": "ELINT",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "Aerocube-5c",
+        "country": [
+          "United States"
+        ],
+        "operator": "The Aerospace Corporation",
+        "orbit": "Low Earth",
+        "function": "Technology",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "Aerocube-7",
+        "country": [
+          "United States"
+        ],
+        "operator": "The Aerospace Corporation",
+        "orbit": "Low Earth",
+        "function": "Technology",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "SNaP-3 x 3",
+        "country": [
+          "United States"
+        ],
+        "operator": "US Army SMDC",
+        "orbit": "Low Earth",
+        "function": "Technology",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "PropCube x 2",
+        "country": [
+          "United States"
+        ],
+        "operator": "Tyvak Nano-Satellite Systems",
+        "orbit": "Low Earth",
+        "function": "Technology",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "SINOD-D x 2",
+        "country": [
+          "United States"
+        ],
+        "operator": "SRI International",
+        "orbit": "Low Earth",
+        "function": "Technology",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "ARC-1",
+        "country": [
+          "United States"
+        ],
+        "operator": "UAF",
+        "orbit": "Low Earth",
+        "function": "Technology",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "BisonSat",
+        "country": [
+          "United States"
+        ],
+        "operator": "SKC",
+        "orbit": "Low Earth",
+        "function": "Earth Observation",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "AMSAT Fox-1",
+        "country": [
+          "United States"
+        ],
+        "operator": "AMSAT",
+        "orbit": "Low Earth",
+        "function": "Amateur Radio/Technology",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "LMRST-Sat",
+        "country": [
+          "United States"
+        ],
+        "operator": "NASA JPL",
+        "orbit": "Low Earth",
+        "function": "Technology",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      }
+    ],
+    "remarks": "NRO Launch 55"
+  },
+  {
+    "date": "2015-10-16T16:16:04+00:00",
+    "rocket": {
+      "name": "Long March 3B/E",
+      "country": [
+        "China"
+      ]
+    },
+    "launch_site": {
+      "name": "Xichang LA-2",
+      "country": [
+        "China"
+      ]
+    },
+    "lsp": {
+      "name": "CASC",
+      "country": [
+        "China"
+      ]
+    },
+    "payloads": [
+      {
+        "name": "APStar-9",
+        "country": [
+          "Hong Kong"
+        ],
+        "operator": "APT Satellite Holdings",
+        "orbit": "Geosynchronous",
+        "function": "Communication",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      }
+    ],
+    "remarks": null
+  },
+  {
+    "date": "2015-10-16T20:40:11+00:00",
+    "rocket": {
+      "name": "Proton-M/Briz-M",
+      "country": [
+        "Russia"
+      ]
+    },
+    "launch_site": {
+      "name": "Baikonur Site 200/39",
+      "country": [
+        "Kazakhstan"
+      ]
+    },
+    "lsp": {
+      "name": "International Launch Services",
+      "country": [
+        "Russia",
+        "United States"
+      ]
+    },
+    "payloads": [
+      {
+        "name": "Türksat 4B",
+        "country": [
+          "Turkey"
+        ],
+        "operator": "Türksat",
+        "orbit": "Geosynchronous",
+        "function": "Communication",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      }
+    ],
+    "remarks": null
+  },
+  {
+    "date": "2015-10-26T07:10:04+00:00",
+    "rocket": {
+      "name": "Long March 2D",
+      "country": [
+        "China"
+      ]
+    },
+    "launch_site": {
+      "name": "Jiuquan LA-4/SLS-2",
+      "country": [
+        "China"
+      ]
+    },
+    "lsp": {
+      "name": "SAST",
+      "country": [
+        "China"
+      ]
+    },
+    "payloads": [
+      {
+        "name": "Tianhui 1C",
+        "country": [
+          "China"
+        ],
+        "operator": "CNSA",
+        "orbit": "Low Earth (SSO)",
+        "function": "Cartography",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      }
+    ],
+    "remarks": null
+  },
+  {
+    "date": "2015-10-31T16:13:00+00:00",
+    "rocket": {
+      "name": "Atlas V 401",
+      "country": [
+        "United States"
+      ]
+    },
+    "launch_site": {
+      "name": "Cape Canaveral SLC-41",
+      "country": [
+        "United States"
+      ]
+    },
+    "lsp": {
+      "name": "United Launch Alliance",
+      "country": [
+        "United States"
+      ]
+    },
+    "payloads": [
+      {
+        "name": "USA-265 (GPS IIF-11)",
+        "country": [
+          "United States"
+        ],
+        "operator": "US Air Force",
+        "orbit": "Medium Earth",
+        "function": "Navigation",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      }
+    ],
+    "remarks": null
+  },
+  {
+    "date": "2015-11-03T16:25:04+00:00",
+    "rocket": {
+      "name": "Long March 3B/E",
+      "country": [
+        "China"
+      ]
+    },
+    "launch_site": {
+      "name": "Xichang LA-3",
+      "country": [
+        "China"
+      ]
+    },
+    "lsp": {
+      "name": "CASC",
+      "country": [
+        "China"
+      ]
+    },
+    "payloads": [
+      {
+        "name": "ChinaSat 2C",
+        "country": [
+          "China"
+        ],
+        "operator": "CNSA",
+        "orbit": "Geosynchronous",
+        "function": "Communication",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      }
+    ],
+    "remarks": null
+  },
+  {
+    "date": "2015-11-04T03:45:00+00:00",
+    "rocket": {
+      "name": "SPARK",
+      "country": [
+        "United States"
+      ]
+    },
+    "launch_site": {
+      "name": "Pacific Missile Range Facility LP-41",
+      "country": [
+        "United States"
+      ]
+    },
+    "lsp": {
+      "name": "ORS",
+      "country": [
+        "United States"
+      ]
+    },
+    "payloads": [
+      {
+        "name": "HiakaSat",
+        "country": [
+          "United States"
+        ],
+        "operator": "ORS",
+        "orbit": "Planned: Low Earth",
+        "function": "Technology Demonstration",
+        "decay": "4 November",
+        "outcome": "Launch failure"
+      },
+      {
+        "name": "EDSN x 8",
+        "country": [
+          "United States"
+        ],
+        "operator": "NASA",
+        "orbit": "Planned: Low Earth",
+        "function": "Technology Demonstration",
+        "decay": "4 November",
+        "outcome": "Launch failure"
+      },
+      {
+        "name": "PrintSat",
+        "country": [
+          "United States"
+        ],
+        "operator": "Montana State University",
+        "orbit": "Planned: Low Earth",
+        "function": "Technology Demonstration",
+        "decay": "4 November",
+        "outcome": "Launch failure"
+      },
+      {
+        "name": "Argus",
+        "country": [
+          "United States"
+        ],
+        "operator": "St. Louis University and Vanderbilt University",
+        "orbit": "Planned: Low Earth",
+        "function": "Technology Demonstration",
+        "decay": "4 November",
+        "outcome": "Launch failure"
+      },
+      {
+        "name": "STACEM",
+        "country": [
+          "United States"
+        ],
+        "operator": "Utah State University",
+        "orbit": "Planned: Low Earth",
+        "function": "Technology Demonstration",
+        "decay": "4 November",
+        "outcome": "Launch failure"
+      },
+      {
+        "name": "Supernova-Beta",
+        "country": [
+          "United States"
+        ],
+        "operator": "Pumpkin, Inc.",
+        "orbit": "Planned: Low Earth",
+        "function": "Technology Demonstration",
+        "decay": "4 November",
+        "outcome": "Launch failure"
+      }
+    ],
+    "remarks": "Maiden flight of the SPARK/Super Strypi launch vehicle\nVehicle lost attitude control at T+1 minute"
+  },
+  {
+    "date": "2015-11-08T07:06:04+00:00",
+    "rocket": {
+      "name": "Long March 4B",
+      "country": [
+        "China"
+      ]
+    },
+    "launch_site": {
+      "name": "Taiyuan LA-9",
+      "country": [
+        "China"
+      ]
+    },
+    "lsp": {
+      "name": "SAST",
+      "country": [
+        "China"
+      ]
+    },
+    "payloads": [
+      {
+        "name": "Yaogan 28",
+        "country": [
+          "China"
+        ],
+        "operator": "CNSA",
+        "orbit": "Low Earth (SSO)",
+        "function": "Reconnaissance",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      }
+    ],
+    "remarks": null
+  },
+  {
+    "date": "2015-11-10T21:34:07+00:00",
+    "rocket": {
+      "name": "Ariane 5 ECA",
+      "country": [
+        "European Union"
+      ]
+    },
+    "launch_site": {
+      "name": "Kourou ELA-3",
+      "country": [
+        "France"
+      ]
+    },
+    "lsp": {
+      "name": "Arianespace",
+      "country": [
+        "France"
+      ]
+    },
+    "payloads": [
+      {
+        "name": "Arabsat 6B",
+        "country": [
+          "Saudi Arabia"
+        ],
+        "operator": "Arabsat",
+        "orbit": "Geosynchronous",
+        "function": "Communication",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "GSAT-15",
+        "country": [
+          "India"
+        ],
+        "operator": "ISRO",
+        "orbit": "Geosynchronous",
+        "function": "Communication",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      }
+    ],
+    "remarks": null
+  },
+  {
+    "date": "2015-11-17T06:33:41+00:00",
+    "rocket": {
+      "name": "Soyuz-2.1b/Fregat",
+      "country": [
+        "Russia"
+      ]
+    },
+    "launch_site": {
+      "name": "Plesetsk Site 43/4",
+      "country": [
+        "Russia"
+      ]
+    },
+    "lsp": {
+      "name": "RVSN RF",
+      "country": [
+        "Russia"
+      ]
+    },
+    "payloads": [
+      {
+        "name": "Kosmos 2510 (EKS (Tundra))",
+        "country": [
+          "Russia"
+        ],
+        "operator": "VKO",
+        "orbit": "Molniya [17]",
+        "function": "Early warning",
+        "decay": "In orbit",
+        "outcome": "Operational[18]"
+      }
+    ],
+    "remarks": "First space component for Russia's new unified missile early warning network.[16]"
+  },
+  {
+    "date": "2015-11-20T16:07:04+00:00",
+    "rocket": {
+      "name": "Long March 3B/E",
+      "country": [
+        "China"
+      ]
+    },
+    "launch_site": {
+      "name": "Xichang LA-2",
+      "country": [
+        "China"
+      ]
+    },
+    "lsp": {
+      "name": "CASC",
+      "country": [
+        "China"
+      ]
+    },
+    "payloads": [
+      {
+        "name": "LaoSat-1",
+        "country": [
+          "Laos"
+        ],
+        "operator": "Laos National Authority for Science and Technology",
+        "orbit": "Geosynchronous",
+        "function": "Communication",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      }
+    ],
+    "remarks": "First Laotian satellite[19]"
+  },
+  {
+    "date": "2015-11-24T06:50:00+00:00",
+    "rocket": {
+      "name": "H-IIA 204",
+      "country": [
+        "Japan"
+      ]
+    },
+    "launch_site": {
+      "name": "Tanegashima LA-Y1",
+      "country": [
+        "Japan"
+      ]
+    },
+    "lsp": {
+      "name": "MHI",
+      "country": [
+        "Japan"
+      ]
+    },
+    "payloads": [
+      {
+        "name": "Telstar 12V",
+        "country": [
+          "Canada"
+        ],
+        "operator": "Telesat",
+        "orbit": "Geosynchronous",
+        "function": "Communication",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      }
+    ],
+    "remarks": null
+  },
+  {
+    "date": "2015-11-26T21:24:04+00:00",
+    "rocket": {
+      "name": "Long March 4C",
+      "country": [
+        "China"
+      ]
+    },
+    "launch_site": {
+      "name": "Taiyuan LA-9",
+      "country": [
+        "China"
+      ]
+    },
+    "lsp": {
+      "name": "SAST",
+      "country": [
+        "China"
+      ]
+    },
+    "payloads": [
+      {
+        "name": "Yaogan 29",
+        "country": [
+          "China"
+        ],
+        "operator": "CNSA",
+        "orbit": "Low Earth (SSO)",
+        "function": "Reconnaissance",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      }
+    ],
+    "remarks": null
+  },
+  {
+    "date": "2015-12-03T04:04:00+00:00",
+    "rocket": {
+      "name": "Vega",
+      "country": [
+        "European Union"
+      ]
+    },
+    "launch_site": {
+      "name": "Kourou ELV",
+      "country": [
+        "France"
+      ]
+    },
+    "lsp": {
+      "name": "Arianespace",
+      "country": [
+        "France"
+      ]
+    },
+    "payloads": [
+      {
+        "name": "LISA Pathfinder",
+        "country": [
+          "European Union"
+        ],
+        "operator": "ESA/NASA",
+        "orbit": "Planned: Sun/Earth L1",
+        "function": "Technology Demonstration",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      }
+    ],
+    "remarks": null
+  },
+  {
+    "date": "2015-12-05T14:08:33+00:00",
+    "rocket": {
+      "name": "Soyuz-2.1v / Volga",
+      "country": [
+        "Russia"
+      ]
+    },
+    "launch_site": {
+      "name": "Plesetsk Site 43/4",
+      "country": [
+        "Russia"
+      ]
+    },
+    "lsp": {
+      "name": "RVSN RF",
+      "country": [
+        "Russia"
+      ]
+    },
+    "payloads": [
+      {
+        "name": "Kosmos 2511 (Kanopus-ST)",
+        "country": [
+          "Russia"
+        ],
+        "operator": "VKO",
+        "orbit": "Intended: Low Earth (SSO)",
+        "function": "Earth observation",
+        "decay": "8 December 2015\n05:43",
+        "outcome": "Launch failure"
+      },
+      {
+        "name": "Kosmos 2512 (KYuA-1)",
+        "country": [
+          "Russia"
+        ],
+        "operator": "Almaz-Antey",
+        "orbit": "Low Earth (SSO)",
+        "function": "Radar calibration",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      }
+    ],
+    "remarks": "Kanopus-ST failed to separate from the Volga upper stage.[20][21]"
+  },
+  {
+    "date": "2015-12-06T21:44:57+00:00",
+    "rocket": {
+      "name": "Atlas V 401",
+      "country": [
+        "United States"
+      ]
+    },
+    "launch_site": {
+      "name": "Cape Canaveral SLC-41",
+      "country": [
+        "United States"
+      ]
+    },
+    "lsp": {
+      "name": "United Launch Alliance",
+      "country": [
+        "United States"
+      ]
+    },
+    "payloads": [
+      {
+        "name": "Cygnus CRS OA-4\nS.S. Deke Slayton II",
+        "country": [
+          "United States"
+        ],
+        "operator": "Orbital ATK / NASA",
+        "orbit": "Low Earth (ISS)",
+        "function": "ISS resupply",
+        "decay": "20 February",
+        "outcome": "Successful"
+      },
+      {
+        "name": "Flock-2e x 12",
+        "country": [
+          "United States"
+        ],
+        "operator": "Planet Labs",
+        "orbit": "Planned: Low Earth",
+        "function": "Earth observation",
+        "decay": " ",
+        "outcome": ""
+      },
+      {
+        "name": "CADRE",
+        "country": [
+          "United States"
+        ],
+        "operator": "University of Michigan",
+        "orbit": "Planned: Low Earth",
+        "function": "Technology demonstration",
+        "decay": " ",
+        "outcome": ""
+      },
+      {
+        "name": "MinXSS 1",
+        "country": [
+          "United States"
+        ],
+        "operator": "University of Colorado Boulder",
+        "orbit": "Planned: Low Earth",
+        "function": "Solar observation",
+        "decay": " ",
+        "outcome": ""
+      },
+      {
+        "name": "Nodes x 2",
+        "country": [
+          "United States"
+        ],
+        "operator": "NASA",
+        "orbit": "Planned: Low Earth",
+        "function": "Technology demonstration",
+        "decay": " ",
+        "outcome": ""
+      },
+      {
+        "name": "STMSat 1",
+        "country": [
+          "United States"
+        ],
+        "operator": "St. Thomas More Cathedral School",
+        "orbit": "Planned: Low Earth",
+        "function": "Education",
+        "decay": " ",
+        "outcome": ""
+      },
+      {
+        "name": "SIMPL",
+        "country": [
+          "United States"
+        ],
+        "operator": "NovaWurks",
+        "orbit": "Planned: Low Earth",
+        "function": "Technology demonstration",
+        "decay": " ",
+        "outcome": ""
+      }
+    ],
+    "remarks": "Flight moved from Antares 130 rocket following launch failure of Cygnus CRS Orb-3. Originally scheduled for April 1, 2015.[22]"
+  },
+  {
+    "date": "2015-12-09T16:46:04+00:00",
+    "rocket": {
+      "name": "Long March 3B/E",
+      "country": [
+        "China"
+      ]
+    },
+    "launch_site": {
+      "name": "Xichang LA-3",
+      "country": [
+        "China"
+      ]
+    },
+    "lsp": {
+      "name": "CASC",
+      "country": [
+        "China"
+      ]
+    },
+    "payloads": [
+      {
+        "name": "ChinaSat 1C",
+        "country": [
+          "China"
+        ],
+        "operator": "CNSA",
+        "orbit": "Geosynchronous",
+        "function": "Communication",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      }
+    ],
+    "remarks": null
+  },
+  {
+    "date": "2015-12-11T13:45:33+00:00",
+    "rocket": {
+      "name": "Zenit-3F",
+      "country": [
+        "Ukraine"
+      ]
+    },
+    "launch_site": {
+      "name": "Baikonur Site 45/1",
+      "country": [
+        "Kazakhstan"
+      ]
+    },
+    "lsp": {
+      "name": "Roskosmos",
+      "country": [
+        "Russia"
+      ]
+    },
+    "payloads": [
+      {
+        "name": "Elektro-L No.2",
+        "country": [
+          "Russia"
+        ],
+        "operator": "Roskosmos",
+        "orbit": "Geosynchronous",
+        "function": "Meteorology",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      }
+    ],
+    "remarks": "Possible final flight of the Zenit launch vehicle following tensions between Ukraine and Russia."
+  },
+  {
+    "date": "2015-12-13T00:19:00+00:00",
+    "rocket": {
+      "name": "Proton-M/Briz-M",
+      "country": [
+        "Russia"
+      ]
+    },
+    "launch_site": {
+      "name": "Baikonur Site 81/24",
+      "country": [
+        "Kazakhstan"
+      ]
+    },
+    "lsp": {
+      "name": "Khrunichev",
+      "country": [
+        "Russia"
+      ]
+    },
+    "payloads": [
+      {
+        "name": "Kosmos 2513 (Garpun No. 12L)",
+        "country": [
+          "Russia"
+        ],
+        "operator": "VKO",
+        "orbit": "Geosynchronous",
+        "function": "Communication",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      }
+    ],
+    "remarks": null
+  },
+  {
+    "date": "2015-12-15T11:03:09+00:00",
+    "rocket": {
+      "name": "Soyuz-FG",
+      "country": [
+        "Russia"
+      ]
+    },
+    "launch_site": {
+      "name": "Baikonur Site 1/5",
+      "country": [
+        "Kazakhstan"
+      ]
+    },
+    "lsp": {
+      "name": "Roskosmos",
+      "country": [
+        "Russia"
+      ]
+    },
+    "payloads": [
+      {
+        "name": "Soyuz TMA-19M",
+        "country": [
+          "Russia"
+        ],
+        "operator": "Roskosmos",
+        "orbit": "Low Earth (ISS)",
+        "function": "Expedition 46/47",
+        "decay": "18 June 2016\n09:15",
+        "outcome": "Successful"
+      }
+    ],
+    "remarks": "Manned flight with three cosmonauts"
+  },
+  {
+    "date": "2015-12-16T12:30:00+00:00",
+    "rocket": {
+      "name": "PSLV-CA",
+      "country": [
+        "India"
+      ]
+    },
+    "launch_site": {
+      "name": "Satish Dhawan FLP",
+      "country": [
+        "India"
+      ]
+    },
+    "lsp": {
+      "name": "ISRO",
+      "country": [
+        "India"
+      ]
+    },
+    "payloads": [
+      {
+        "name": "TeLEOS-1",
+        "country": [
+          "Singapore"
+        ],
+        "operator": "AgilSpace",
+        "orbit": "Low Earth",
+        "function": "Earth observation",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "VELOX C1",
+        "country": [
+          "Singapore"
+        ],
+        "operator": "NTU",
+        "orbit": "Low Earth",
+        "function": "Atmospheric research",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "VELOX 2",
+        "country": [
+          "Singapore"
+        ],
+        "operator": "NTU",
+        "orbit": "Low Earth",
+        "function": "Technology",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "Kent Ridge 1",
+        "country": [
+          "Singapore"
+        ],
+        "operator": "NUS",
+        "orbit": "Low Earth",
+        "function": "Earth observation",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "Galassia",
+        "country": [
+          "Singapore"
+        ],
+        "operator": "NUS",
+        "orbit": "Low Earth",
+        "function": "Atmospheric research",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "Athenoxat-1",
+        "country": [
+          "Singapore"
+        ],
+        "operator": "NTU",
+        "orbit": "Low Earth",
+        "function": "Earth Observation",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      }
+    ],
+    "remarks": null
+  },
+  {
+    "date": "2015-12-17T00:12:04+00:00",
+    "rocket": {
+      "name": "Long March 2D",
+      "country": [
+        "China"
+      ]
+    },
+    "launch_site": {
+      "name": "Jiuquan LA-4/SLS-2",
+      "country": [
+        "China"
+      ]
+    },
+    "lsp": {
+      "name": "SAST",
+      "country": [
+        "China"
+      ]
+    },
+    "payloads": [
+      {
+        "name": "DAMPE",
+        "country": [
+          "China"
+        ],
+        "operator": "CAS",
+        "orbit": "Low Earth (SSO)",
+        "function": "High-energy Astronomy",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      }
+    ],
+    "remarks": null
+  },
+  {
+    "date": "2015-12-17T11:51:56+00:00",
+    "rocket": {
+      "name": "Soyuz-STB/Fregat",
+      "country": [
+        "Russia"
+      ]
+    },
+    "launch_site": {
+      "name": "Kourou ELS",
+      "country": [
+        "France"
+      ]
+    },
+    "lsp": {
+      "name": "Arianespace",
+      "country": [
+        "France"
+      ]
+    },
+    "payloads": [
+      {
+        "name": "Galileo FOC 8",
+        "country": [
+          "European Union"
+        ],
+        "operator": "ESA",
+        "orbit": "Medium Earth",
+        "function": "Navigation",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "Galileo FOC 9",
+        "country": [
+          "European Union"
+        ],
+        "operator": "ESA",
+        "orbit": "Medium Earth",
+        "function": "Navigation",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      }
+    ],
+    "remarks": null
+  },
+  {
+    "date": "2015-12-21T08:44:39+00:00",
+    "rocket": {
+      "name": "Soyuz-2.1a",
+      "country": [
+        "Russia"
+      ]
+    },
+    "launch_site": {
+      "name": "Baikonur Site 31/6",
+      "country": [
+        "Kazakhstan"
+      ]
+    },
+    "lsp": {
+      "name": "Roskosmos",
+      "country": [
+        "Russia"
+      ]
+    },
+    "payloads": [
+      {
+        "name": "Progress MS-01",
+        "country": [
+          "Russia"
+        ],
+        "operator": "Roskosmos",
+        "orbit": "Low Earth (ISS)",
+        "function": "ISS Resupply",
+        "decay": "3 July\n07:50",
+        "outcome": "Operational"
+      }
+    ],
+    "remarks": "First launch of the new Progress-MS variant."
+  },
+  {
+    "date": "2015-12-22T01:29:00+00:00",
+    "rocket": {
+      "name": "Falcon 9 Full Thrust",
+      "country": [
+        "United States"
+      ]
+    },
+    "launch_site": {
+      "name": "Cape Canaveral SLC-40",
+      "country": [
+        "United States"
+      ]
+    },
+    "lsp": {
+      "name": "SpaceX",
+      "country": [
+        "United States"
+      ]
+    },
+    "payloads": [
+      {
+        "name": "Orbcomm-2 F2",
+        "country": [
+          "United States"
+        ],
+        "operator": "Orbcomm",
+        "orbit": "Low Earth",
+        "function": "Communication",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "Orbcomm-2 F5",
+        "country": [
+          "United States"
+        ],
+        "operator": "Orbcomm",
+        "orbit": "Low Earth",
+        "function": "Communication",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "Orbcomm-2 F8",
+        "country": [
+          "United States"
+        ],
+        "operator": "Orbcomm",
+        "orbit": "Low Earth",
+        "function": "Communication",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "Orbcomm-2 F10",
+        "country": [
+          "United States"
+        ],
+        "operator": "Orbcomm",
+        "orbit": "Low Earth",
+        "function": "Communication",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "Orbcomm-2 F12",
+        "country": [
+          "United States"
+        ],
+        "operator": "Orbcomm",
+        "orbit": "Low Earth",
+        "function": "Communication",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "Orbcomm-2 F13",
+        "country": [
+          "United States"
+        ],
+        "operator": "Orbcomm",
+        "orbit": "Low Earth",
+        "function": "Communication",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "Orbcomm-2 F14",
+        "country": [
+          "United States"
+        ],
+        "operator": "Orbcomm",
+        "orbit": "Low Earth",
+        "function": "Communication",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "Orbcomm-2 F15",
+        "country": [
+          "United States"
+        ],
+        "operator": "Orbcomm",
+        "orbit": "Low Earth",
+        "function": "Communication",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "Orbcomm-2 F16",
+        "country": [
+          "United States"
+        ],
+        "operator": "Orbcomm",
+        "orbit": "Low Earth",
+        "function": "Communication",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "Orbcomm-2 F17",
+        "country": [
+          "United States"
+        ],
+        "operator": "Orbcomm",
+        "orbit": "Low Earth",
+        "function": "Communication",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      },
+      {
+        "name": "Orbcomm-2 F18",
+        "country": [
+          "United States"
+        ],
+        "operator": "Orbcomm",
+        "orbit": "Low Earth",
+        "function": "Communication",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      }
+    ],
+    "remarks": "First flight of the upgraded \"full thrust\" version of Falcon 9, first Falcon 9 flight after launch failure in June. First successful return to launch site and vertical landing of a first stage, demonstrated as part of a controlled descent test."
+  },
+  {
+    "date": "2015-12-24T21:31:19+00:00",
+    "rocket": {
+      "name": "Proton-M/Briz-M",
+      "country": [
+        "Russia"
+      ]
+    },
+    "launch_site": {
+      "name": "Baikonur Site 200/39",
+      "country": [
+        "Kazakhstan"
+      ]
+    },
+    "lsp": {
+      "name": "Khrunichev",
+      "country": [
+        "Russia"
+      ]
+    },
+    "payloads": [
+      {
+        "name": "Ekspress AMU1",
+        "country": [
+          "Russia"
+        ],
+        "operator": "RSCC",
+        "orbit": "Geosynchronous",
+        "function": "Communication",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      }
+    ],
+    "remarks": null
+  },
+  {
+    "date": "2015-12-28T16:04:04+00:00",
+    "rocket": {
+      "name": "Long March 3B/E",
+      "country": [
+        "China"
+      ]
+    },
+    "launch_site": {
+      "name": "Xichang LA-2",
+      "country": [
+        "China"
+      ]
+    },
+    "lsp": {
+      "name": "CASC",
+      "country": [
+        "China"
+      ]
+    },
+    "payloads": [
+      {
+        "name": "Gaofen 4",
+        "country": [
+          "China"
+        ],
+        "operator": "CNSA",
+        "orbit": "Geosynchronous",
+        "function": "Earth observation",
+        "decay": "In orbit",
+        "outcome": "Operational"
+      }
+    ],
+    "remarks": null
   }
 ]
