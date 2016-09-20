@@ -38,7 +38,8 @@ def analyze year
     cell.css('.flagicon > a').map { |a| a['title'] }
   end
 
-  launches = launches_html.map do |rows|
+  launches = []
+  launches_html.each do |rows|
     info_row = rows[0]
   
     begin
@@ -50,8 +51,8 @@ def analyze year
     end
   
     if date > DateTime.now
-      puts 'Future date, skipping'
-      next
+      puts 'Future date, stopping for the year'
+      break
     end
   
     rocket_name = info_row.css('td')[1].content.strip
@@ -66,10 +67,10 @@ def analyze year
     lsp_country = flags(info_row.css('td')[3])
     lsp = LaunchServiceProvider.new(lsp_name, lsp_country)
   
-    puts date.strftime('%e %b %Y %H:%M')
-    puts rocket
-    puts launch_site
-    puts lsp
+    # puts date.strftime('%e %b %Y %H:%M')
+    # puts rocket
+    # puts launch_site
+    # puts lsp
   
     rows.shift
   
@@ -87,21 +88,31 @@ def analyze year
       decay    = sat.css('td')[4].content.strip
       outcome  = sat.css('td')[5].content.strip
       payload  = Payload.new(name, country, operator, orbit, function, decay, outcome)
-      puts payload
+      # puts payload
       payload
     end
   
-    puts remarks
-    puts
+    # puts remarks
+    # puts
   
-    launch = Launch.new(date, rocket, launch_site, lsp, payloads, remarks)
+    launches << Launch.new(date, rocket, launch_site, lsp, payloads, remarks)
   end
 
   launches.reject! &:nil?
+  puts "#{launches.count} launches in #{year}"
   launches
 end
 
+# analyze all years
+
+
+# all_launches = (2015..Time.now.year).flat_map do |year|
+#   puts "Analyzing data for #{year}..."
+#   analyze year
+# end
+
 launches = analyze 2015
+
 
 # exporting
 
