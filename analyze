@@ -67,10 +67,10 @@ def analyze year
     lsp_country = flags(info_row.css('td')[3])
     lsp = LaunchServiceProvider.new(lsp_name, lsp_country)
   
-    # puts date.strftime('%e %b %Y %H:%M')
-    # puts rocket
-    # puts launch_site
-    # puts lsp
+    puts date.strftime('%e %b %Y %H:%M')
+    puts rocket
+    puts launch_site
+    puts lsp
   
     rows.shift
   
@@ -78,15 +78,44 @@ def analyze year
       remarks = last_cell.content
       rows.pop
     end
+    
+    # rewrite rows so that merged rows get duplicated
+    rows = rows.map do |row|
+      td = row.css('td')
+      Array(td[0...td.count])
+    end
+    
+    new_rows = rows.map { |r| r.dup }
+    
+    binding.pry if rocket.name == 'Proton-M/DM-03 Enhanced'
+    
+    rows.each_with_index do |row, i|
+      row.each_with_index do |cell, j|
+        rowspan = cell["rowspan"].to_i
+        if rowspan > 1
+          puts "doing it, #{i}x#{j}"
+          puts rows[i][j]
+          (i+1...i+rowspan).each do |r|
+            puts "Replacing #{r}x#{j}"
+            new_rows[r][j] = cell.dup
+          end
+        end
+      end
+    end
+    
+    puts "ok"
+    
+    # analyze payloads
   
-    payloads = rows.map do |sat|
-      name     = sat.css('td')[0].content.strip
-      country  = flags(sat.css('td')[0])
-      operator = sat.css('td')[1].content.strip
-      orbit    = sat.css('td')[2].content.strip
-      function = sat.css('td')[3].content.strip
-      decay    = sat.css('td')[4].content.strip
-      outcome  = sat.css('td')[5].content.strip
+    payloads = new_rows.map do |sat|
+      name     = sat[0].content.strip
+      country  = flags(sat[0])
+      operator = sat[1].content.strip
+      orbit    = sat[2].content.strip
+      function = sat[3].content.strip
+      decay    = sat[4].content.strip
+      puts sat[5]
+      outcome  = sat[5].content.strip
       payload  = Payload.new(name, country, operator, orbit, function, decay, outcome)
       # puts payload
       payload
@@ -111,8 +140,9 @@ end
 #   analyze year
 # end
 
-launches = analyze 2015
+# launches = analyze 2014
 
+binding.pry
 
 # exporting
 
@@ -130,4 +160,4 @@ class Struct
   end
 end
 
-IO.write '2015.json', JSON.pretty_generate(launches)
+# IO.write '2015.json', JSON.pretty_generate(launches)
