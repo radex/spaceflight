@@ -13,7 +13,7 @@ LaunchSite = Struct.new(:name, :country)
 LaunchServiceProvider = Struct.new(:name, :country)
 Launch = Struct.new(:date, :rocket, :launch_site, :lsp, :payloads, :remarks)
 
-def analyze year, file
+def analyze year, file = "wiki/#{year}.html"
   html = Nokogiri::HTML IO.read file
 
   # find the main table
@@ -104,15 +104,22 @@ def analyze year, file
     end
     
     # analyze payloads
+    
+    def content_of cell
+      return nil if cell.nil?
+      cell = cell.dup
+      cell.css('sup').each(&:remove) # remove references
+      cell.content.strip
+    end
   
     payloads = new_rows.map do |sat|
-      name     = sat[0].content.strip
+      name     = content_of sat[0]
       country  = flags(sat[0])
-      operator = sat[1].content.strip
-      orbit    = sat[2].content.strip
-      function = sat[3].content.strip
-      decay    = sat[4].content.strip
-      outcome  = sat[5] && sat[5].content.strip
+      operator = content_of sat[1]
+      orbit    = content_of sat[2]
+      function = content_of sat[3]
+      decay    = content_of sat[4]
+      outcome  = content_of sat[5]
       payload  = Payload.new(name, country, operator, orbit, function, decay, outcome)
       # puts payload
       payload
@@ -146,7 +153,7 @@ all_launches = years.flat_map do |year|
   elsif split_4.include? year
     (1..4).flat_map { |p| analyze year, "wiki/#{year}.#{p}.html" }
   else
-    analyze year, "wiki/#{year}.html"
+    analyze year
   end
 end
 
