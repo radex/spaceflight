@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require 'pry'
+require_relative 'model.rb'
+
+raw_data = JSON.load IO.read 'data.json'
+data = raw_data.map { |l| Launch.from_json l }
+
+binding.pry

@@ -4,14 +4,7 @@ require 'date'
 require 'active_support'
 require 'active_support/core_ext/date_time'
 require 'pry'
-
-# launch model structs
-
-Payload = Struct.new(:name, :country, :operator, :orbit, :function, :decay, :outcome)
-Rocket = Struct.new(:name, :country)
-LaunchSite = Struct.new(:name, :country)
-LaunchServiceProvider = Struct.new(:name, :country)
-Launch = Struct.new(:date, :rocket, :launch_site, :lsp, :payloads, :remarks)
+require_relative 'model'
 
 def analyze year, file = "wiki/#{year}.html"
   html = Nokogiri::HTML IO.read file
@@ -158,19 +151,5 @@ all_launches = years.flat_map do |year|
 end
 
 # exporting
-
-require 'json'
-
-class Struct
-  def to_map
-    map = Hash.new
-    self.members.each { |m| map[m] = self[m] }
-    map
-  end
-
-  def to_json(*a)
-    to_map.to_json(*a)
-  end
-end
 
 IO.write 'data.json', JSON.pretty_generate(all_launches)
