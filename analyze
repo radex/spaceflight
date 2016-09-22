@@ -142,10 +142,6 @@ all_launches = years.flat_map do |year|
   analyze year
 end
 
-# launches = analyze 2014
-
-# binding.pry
-
 # exporting
 
 require 'json'
@@ -162,4 +158,4 @@ class Struct
   end
 end
 
-# IO.write '2015.json', JSON.pretty_generate(launches)
+IO.write 'data.json', JSON.pretty_generate(all_launches)
