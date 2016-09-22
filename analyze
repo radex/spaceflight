@@ -97,7 +97,7 @@ def analyze year
           puts rows[i][j]
           (i+1...i+rowspan).each do |r|
             puts "Replacing #{r}x#{j}"
-            new_rows[r][j] = cell.dup
+            new_rows[r].insert j, cell.dup
           end
         end
       end
