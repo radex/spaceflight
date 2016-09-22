@@ -67,10 +67,10 @@ def analyze year
     lsp_country = flags(info_row.css('td')[3])
     lsp = LaunchServiceProvider.new(lsp_name, lsp_country)
   
-    puts date.strftime('%e %b %Y %H:%M')
-    puts rocket
-    puts launch_site
-    puts lsp
+    # puts date.strftime('%e %b %Y %H:%M')
+    # puts rocket
+    # puts launch_site
+    # puts lsp
   
     rows.shift
   
@@ -87,23 +87,19 @@ def analyze year
     
     new_rows = rows.map { |r| r.dup }
     
-    binding.pry if rocket.name == 'Proton-M/DM-03 Enhanced'
-    
     rows.each_with_index do |row, i|
       row.each_with_index do |cell, j|
         rowspan = cell["rowspan"].to_i
         if rowspan > 1
-          puts "doing it, #{i}x#{j}"
-          puts rows[i][j]
+          # puts "doing it, #{i}x#{j}"
+          # puts rows[i][j]
           (i+1...i+rowspan).each do |r|
-            puts "Replacing #{r}x#{j}"
+            # puts "Replacing #{r}x#{j}"
             new_rows[r].insert j, cell.dup
           end
         end
       end
     end
-    
-    puts "ok"
     
     # analyze payloads
   
@@ -114,8 +110,7 @@ def analyze year
       orbit    = sat[2].content.strip
       function = sat[3].content.strip
       decay    = sat[4].content.strip
-      puts sat[5]
-      outcome  = sat[5].content.strip
+      outcome  = sat[5] && sat[5].content.strip
       payload  = Payload.new(name, country, operator, orbit, function, decay, outcome)
       # puts payload
       payload
@@ -134,15 +129,20 @@ end
 
 # analyze all years
 
+# years = (1951..Time.now.year)
+skip = [1991, 2008, 2009, 1960, 1961, 1962, 1963, 1964, 1965] # split pages
+skip += [1998] # wiki-side formatting error
+skip += [1972, 1974, 1967, 1969] # unsupported formatting
+years = Array(1951..Time.now.year) - skip
 
-# all_launches = (2015..Time.now.year).flat_map do |year|
-#   puts "Analyzing data for #{year}..."
-#   analyze year
-# end
+all_launches = years.flat_map do |year|
+  puts "Analyzing data for #{year}..."
+  analyze year
+end
 
 # launches = analyze 2014
 
-binding.pry
+# binding.pry
 
 # exporting
 
