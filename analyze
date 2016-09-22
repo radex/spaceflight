@@ -13,8 +13,8 @@ LaunchSite = Struct.new(:name, :country)
 LaunchServiceProvider = Struct.new(:name, :country)
 Launch = Struct.new(:date, :rocket, :launch_site, :lsp, :payloads, :remarks)
 
-def analyze year
-  html = Nokogiri::HTML IO.read "wiki/#{year}.html"
+def analyze year, file
+  html = Nokogiri::HTML IO.read file
 
   # find the main table
   table = html.css('table.wikitable').find { |table|
@@ -131,15 +131,23 @@ end
 
 # analyze all years
 
-# years = (1951..Time.now.year)
-skip = [1991, 2008, 2009, 1960, 1961, 1962, 1963, 1964, 1965] # split pages
-skip += [1998] # wiki-side formatting error
+split_2 = [1960, 1961, 1963, 1991, 2008, 2009]
+split_4 = [1962, 1964, 1965]
+
+skip = [1998] # wiki-side formatting error
 skip += [1972, 1974, 1967, 1969] # unsupported formatting
 years = Array(1951..Time.now.year) - skip
 
 all_launches = years.flat_map do |year|
   puts "Analyzing data for #{year}..."
-  analyze year
+  # binding.pry if year == 1960
+  if split_2.include? year
+    (1..2).flat_map { |p| analyze year, "wiki/#{year}.#{p}.html" }
+  elsif split_4.include? year
+    (1..4).flat_map { |p| analyze year, "wiki/#{year}.#{p}.html" }
+  else
+    analyze year, "wiki/#{year}.html"
+  end
 end
 
 # exporting
