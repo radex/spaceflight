@@ -43,10 +43,12 @@ def analyze year
     info_row = rows[0]
   
     begin
-      date = DateTime.parse(info_row.css('td')[0].content)
+      raw_date = info_row.css('td')[0].content
+      date = DateTime.parse(raw_date)
       date = date.change(year: year)
     rescue ArgumentError
-      puts 'Bad date, skipping' 
+      # Bad date (often vague like just "November"), but note anyway
+      date = "#{raw_date} (#{year})"
       next
     end
   
