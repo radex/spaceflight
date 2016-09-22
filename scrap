@@ -10,38 +10,38 @@ end
 square_pegs = %w(
   https://en.wikipedia.org/wiki/Spaceflight_before_1951                 1944-1950
   
-  https://en.wikipedia.org/wiki/1960_in_spaceflight_(January–June)      1960.1
-  https://en.wikipedia.org/wiki/1960_in_spaceflight_(July–December)     1960.2
+  https://en.wikipedia.org/wiki/1960_in_spaceflight_(January-June)      1960.1
+  https://en.wikipedia.org/wiki/1960_in_spaceflight_(July-December)     1960.2
   
-  https://en.wikipedia.org/wiki/1961_in_spaceflight_(January–June)      1961.1
-  https://en.wikipedia.org/wiki/1961_in_spaceflight_(July–December)     1961.2
+  https://en.wikipedia.org/wiki/1961_in_spaceflight_(January-June)      1961.1
+  https://en.wikipedia.org/wiki/1961_in_spaceflight_(July-December)     1961.2
   
-  https://en.wikipedia.org/wiki/1962_in_spaceflight_(January–March)     1962.1
-  https://en.wikipedia.org/wiki/1962_in_spaceflight_(April–June)        1962.2
-  https://en.wikipedia.org/wiki/1962_in_spaceflight_(July–September)    1962.3
-  https://en.wikipedia.org/wiki/1962_in_spaceflight_(October–December)  1962.4
+  https://en.wikipedia.org/wiki/1962_in_spaceflight_(January-March)     1962.1
+  https://en.wikipedia.org/wiki/1962_in_spaceflight_(April-June)        1962.2
+  https://en.wikipedia.org/wiki/1962_in_spaceflight_(July-September)    1962.3
+  https://en.wikipedia.org/wiki/1962_in_spaceflight_(October-December)  1962.4
   
-  https://en.wikipedia.org/wiki/1963_in_spaceflight_(January–June)      1963.1
-  https://en.wikipedia.org/wiki/1963_in_spaceflight_(July–December)     1963.2
+  https://en.wikipedia.org/wiki/1963_in_spaceflight_(January-June)      1963.1
+  https://en.wikipedia.org/wiki/1963_in_spaceflight_(July-December)     1963.2
   
-  https://en.wikipedia.org/wiki/1964_in_spaceflight_(January–March)     1964.1
-  https://en.wikipedia.org/wiki/1964_in_spaceflight_(April–June)        1964.2
-  https://en.wikipedia.org/wiki/1964_in_spaceflight_(July–September)    1964.3
-  https://en.wikipedia.org/wiki/1964_in_spaceflight_(October–December)  1964.4
+  https://en.wikipedia.org/wiki/1964_in_spaceflight_(January-March)     1964.1
+  https://en.wikipedia.org/wiki/1964_in_spaceflight_(April-June)        1964.2
+  https://en.wikipedia.org/wiki/1964_in_spaceflight_(July-September)    1964.3
+  https://en.wikipedia.org/wiki/1964_in_spaceflight_(October-December)  1964.4
   
-  https://en.wikipedia.org/wiki/1965_in_spaceflight_(January–March)     1965.1
-  https://en.wikipedia.org/wiki/1965_in_spaceflight_(April–June)        1965.2
-  https://en.wikipedia.org/wiki/1965_in_spaceflight_(July–September)    1965.3
-  https://en.wikipedia.org/wiki/1965_in_spaceflight_(October–December)  1965.4
+  https://en.wikipedia.org/wiki/1965_in_spaceflight_(January-March)     1965.1
+  https://en.wikipedia.org/wiki/1965_in_spaceflight_(April-June)        1965.2
+  https://en.wikipedia.org/wiki/1965_in_spaceflight_(July-September)    1965.3
+  https://en.wikipedia.org/wiki/1965_in_spaceflight_(October-December)  1965.4
   
-  https://en.wikipedia.org/wiki/1991_in_spaceflight_(January–June)      1991.1
-  https://en.wikipedia.org/wiki/1991_in_spaceflight_(July–December)     1991.2
+  https://en.wikipedia.org/wiki/1991_in_spaceflight_(January-June)      1991.1
+  https://en.wikipedia.org/wiki/1991_in_spaceflight_(July-December)     1991.2
   
-  https://en.wikipedia.org/wiki/2008_in_spaceflight_(January–June)      2008.1
-  https://en.wikipedia.org/wiki/2008_in_spaceflight_(July–December)     2008.2
+  https://en.wikipedia.org/wiki/2008_in_spaceflight_(January-June)      2008.1
+  https://en.wikipedia.org/wiki/2008_in_spaceflight_(July-December)     2008.2
   
-  https://en.wikipedia.org/wiki/2009_in_spaceflight_(January–June)      2009.1
-  https://en.wikipedia.org/wiki/2009_in_spaceflight_(July–December)     2009.2
+  https://en.wikipedia.org/wiki/2009_in_spaceflight_(January-June)      2009.1
+  https://en.wikipedia.org/wiki/2009_in_spaceflight_(July-December)     2009.2
 )
 
 square_pegs.each_slice(2) do |url, file|
