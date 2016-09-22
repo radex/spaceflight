@@ -26,6 +26,13 @@ def analyze year, file = "wiki/#{year}.html"
   }
 
   # parse launch data
+  
+  def content_of cell
+    return nil if cell.nil?
+    cell = cell.dup
+    cell.css('sup').each(&:remove) # remove references
+    cell.content.strip
+  end
 
   def flags cell
     cell.css('.flagicon > a').map { |a| a['title'] }
@@ -36,7 +43,7 @@ def analyze year, file = "wiki/#{year}.html"
     info_row = rows[0]
   
     begin
-      raw_date = info_row.css('td')[0].content
+      raw_date = content_of info_row.css('td')[0]
       date = DateTime.parse(raw_date)
       date = date.change(year: year)
     rescue ArgumentError
@@ -50,15 +57,15 @@ def analyze year, file = "wiki/#{year}.html"
       break
     end
   
-    rocket_name = info_row.css('td')[1].content.strip
+    rocket_name = content_of info_row.css('td')[1]
     rocket_country = flags(info_row.css('td')[1])
     rocket = Rocket.new(rocket_name, rocket_country)
   
-    launch_site_name = info_row.css('td')[2].content.strip
+    launch_site_name = content_of info_row.css('td')[2]
     launch_site_country = flags(info_row.css('td')[2])
     launch_site = LaunchSite.new(launch_site_name, launch_site_country)
   
-    lsp_name = info_row.css('td')[3].content.strip
+    lsp_name = content_of info_row.css('td')[3]
     lsp_country = flags(info_row.css('td')[3])
     lsp = LaunchServiceProvider.new(lsp_name, lsp_country)
   
@@ -70,7 +77,7 @@ def analyze year, file = "wiki/#{year}.html"
     rows.shift
   
     if last_cell = rows.last.css('td')[0] and last_cell['colspan'] == '6'
-      remarks = last_cell.content
+      remarks = content_of last_cell
       rows.pop
     end
     
@@ -97,13 +104,6 @@ def analyze year, file = "wiki/#{year}.html"
     end
     
     # analyze payloads
-    
-    def content_of cell
-      return nil if cell.nil?
-      cell = cell.dup
-      cell.css('sup').each(&:remove) # remove references
-      cell.content.strip
-    end
   
     payloads = new_rows.map do |sat|
       name     = content_of sat[0]
